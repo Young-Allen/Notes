@@ -11,8 +11,12 @@
             "id": "ec1bd1830a5e406a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -114,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md"
               }
             }
           },
@@ -185,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 455
+    "width": 455,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,7 +208,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "6d1c5b88e8f3f3c0",
+  "active": "ec1bd1830a5e406a",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "408/操作系统/索引（index）.md",
