@@ -101,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -208,7 +209,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "ec1bd1830a5e406a",
+  "active": "6d1c5b88e8f3f3c0",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "408/操作系统/索引（index）.md",
