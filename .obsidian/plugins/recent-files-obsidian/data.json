@@ -1,0 +1,135 @@
+{
+  "recentFiles": [
+    {
+      "basename": "0监督学习",
+      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "机器学习/未命名.md"
+    },
+    {
+      "basename": "优先队列——堆排序",
+      "path": "算法/数据结构和STL使用/优先队列——堆排序.pdf"
+    },
+    {
+      "basename": "数的范围（二分模板）",
+      "path": "算法/二分/数的范围（二分模板）.md"
+    },
+    {
+      "basename": "数的三次方根",
+      "path": "算法/二分/数的三次方根.md"
+    },
+    {
+      "basename": "并查集",
+      "path": "算法/并查集/并查集.md"
+    },
+    {
+      "basename": "最短路问题",
+      "path": "算法/搜索与图论/最短路问题.pdf"
+    },
+    {
+      "basename": "图的存储和遍历",
+      "path": "算法/搜索与图论/图的存储和遍历.pdf"
+    },
+    {
+      "basename": "图的存储",
+      "path": "算法/搜索与图论/图的存储.md"
+    },
+    {
+      "basename": "拓扑排序",
+      "path": "算法/搜索与图论/拓扑排序.md"
+    },
+    {
+      "basename": "求图的连通块问题",
+      "path": "算法/搜索与图论/求图的连通块问题.pdf"
+    },
+    {
+      "basename": "质数",
+      "path": "算法/数论/质数.pdf"
+    },
+    {
+      "basename": "约数",
+      "path": "算法/数论/约数.pdf"
+    },
+    {
+      "basename": "最小生成树和二分图",
+      "path": "算法/搜索与图论/最小生成树和二分图.pdf"
+    },
+    {
+      "basename": "进制转换",
+      "path": "算法/数论/进制转换.pdf"
+    },
+    {
+      "basename": "最大公约数、最小公倍数",
+      "path": "算法/数论/最大公约数、最小公倍数.pdf"
+    },
+    {
+      "basename": "欧拉函数",
+      "path": "算法/数论/欧拉函数.pdf"
+    },
+    {
+      "basename": "快速幂",
+      "path": "算法/数论/快速幂.pdf"
+    },
+    {
+      "basename": "常用数学公式函数",
+      "path": "算法/数论/常用数学公式函数.md"
+    },
+    {
+      "basename": "背包九讲",
+      "path": "算法/Carl/背包九讲.pdf"
+    },
+    {
+      "basename": "基数排序",
+      "path": "算法/排序/基数排序.md"
+    },
+    {
+      "basename": "归并排序",
+      "path": "算法/排序/归并排序.md"
+    },
+    {
+      "basename": "插入排序",
+      "path": "算法/排序/插入排序.md"
+    },
+    {
+      "basename": "前缀和",
+      "path": "算法/前缀和和差分/前缀和.md"
+    },
+    {
+      "basename": "差分",
+      "path": "算法/前缀和和差分/差分.md"
+    },
+    {
+      "basename": "queue容器和deque容器",
+      "path": "算法/数据结构和STL使用/queue容器和deque容器.pdf"
+    },
+    {
+      "basename": "algorithm头文件的常用函数",
+      "path": "算法/数据结构和STL使用/algorithm头文件的常用函数.pdf"
+    },
+    {
+      "basename": "bitset",
+      "path": "算法/数据结构和STL使用/bitset.pdf"
+    },
+    {
+      "basename": "list容器",
+      "path": "算法/数据结构和STL使用/list容器.pdf"
+    },
+    {
+      "basename": "map容器",
+      "path": "算法/数据结构和STL使用/map容器.pdf"
+    },
+    {
+      "basename": "pair对组",
+      "path": "算法/数据结构和STL使用/pair对组.pdf"
+    },
+    {
+      "basename": "set容器",
+      "path": "算法/数据结构和STL使用/set容器.pdf"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "98db5d8c3a369f0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1387ad16ec47a677",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "框架/Spring.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed8ba7bafda8d582",
+    "type": "split",
+    "children": [
+      {
+        "id": "33a33b76d3e5bf8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a69b95aba97b34dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "644e6001af977e32",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "399e45db52225a5c",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "de979503da140308",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200.5
+  },
+  "right": {
+    "id": "329398b3dd8c5bd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d3259964e1a4929",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e161759745255825",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "框架/Spring.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1459431483688f16",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "框架/Spring.md"
+              }
+            }
+          },
+          {
+            "id": "5d7bb8c674f8c29e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f3ac45d3c8e2c737",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b108ae2211342647",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5f59b735a1315ad4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 363.5
+  },
+  "active": "1387ad16ec47a677",
+  "lastOpenFiles": [
+    "Web/SSM.md",
+    "框架/Spring.md",
+    "MySQL/MySQL.md",
+    "杂/股市股票.md",
+    "杂/维生素.md",
+    "draft.md",
+    "JavaSE/JavaSE.md",
+    "MySQL/数据库杂.md",
+    "MySQL/mysql高级/day04/Mysql高级-day04.md",
+    "MySQL/mysql高级/day03/Mysql高级-day03.pdf"
+  ]
+}

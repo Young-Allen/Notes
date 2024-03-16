@@ -1,0 +1,20 @@
+{
+  "obsidian-text-format:text-format-upper": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
+  "obsidian-text-format:text-format-lower": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-italics": [],
+  "editor:toggle-checklist-status": []
+}

@@ -1,0 +1,14 @@
+{
+  "baseFontSize": 17,
+  "theme": "obsidian",
+  "cssTheme": "AnuPpuccin",
+  "baseFontSizeAction": true,
+  "translucency": false,
+  "accentColor": "",
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "extended-colorschemes",
+    "yaozhuwa@CSS"
+  ],
+  "interfaceFontFamily": ""
+}
