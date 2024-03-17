@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/学习算法的思路.md",
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "e7a1d18f322e6285",
@@ -101,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 200
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/学习算法的思路.md",
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/学习算法的思路.md"
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md"
               }
             }
           },
@@ -208,8 +209,10 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "ec1bd1830a5e406a",
+  "active": "90be94c4eeca4c7a",
   "lastOpenFiles": [
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/学习算法的思路.md",
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
     "conflict-files-obsidian-git.md",
     "408/操作系统/索引（index）.md",
@@ -246,7 +249,6 @@
     "Unity/3. 飞行和射击.md",
     "Unity/2.联机.md",
     "Unity/1.项目创建和角色移动.md",
-    "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md",
     "README.md",
     "机器学习/ML_NG/7-kmeans and PCA/data/bird_small.png",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习第十六章——异常检验/x-oss-process=image.png",
@@ -255,7 +257,6 @@
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习第十六章——异常检验/math.8.svg",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习第十六章——异常检验/math.7.svg",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
-    "机器学习/Machine-Learning-Andrew-Ng-2022-master/训练集 交叉验证集 测试集.md",
     "未命名.canvas",
     "canvasDraft.canvas"
   ]
