@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 280.5,
+    "collapsed": true
   },
   "right": {
     "id": "329398b3dd8c5bd2",
