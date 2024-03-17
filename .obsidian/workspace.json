@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/学习算法的思路.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 315.5
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/学习算法的思路.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md"
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/学习算法的思路.md"
               }
             }
           },
@@ -209,8 +208,9 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "6d1c5b88e8f3f3c0",
+  "active": "ec1bd1830a5e406a",
   "lastOpenFiles": [
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
     "conflict-files-obsidian-git.md",
     "408/操作系统/索引（index）.md",
     "408/操作系统/第六章 输入输出系统.md",
@@ -256,7 +256,6 @@
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习第十六章——异常检验/math.7.svg",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/训练集 交叉验证集 测试集.md",
-    "机器学习/Machine-Learning-Andrew-Ng-2022-master/正则化为什么惩罚有利特征.md",
     "未命名.canvas",
     "canvasDraft.canvas"
   ]
