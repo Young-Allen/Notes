@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md"
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md"
               }
             }
           }
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5,
-    "collapsed": true
+    "width": 280.5
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,12 +203,12 @@
   },
   "active": "9f005e06c047f81a",
   "lastOpenFiles": [
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "Excalidraw",
     "2024-03-17.md",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/学习算法的思路.md",
-    "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
     "conflict-files-obsidian-git.md",
     "408/操作系统/索引（index）.md",
     "408/操作系统/第六章 输入输出系统.md",
