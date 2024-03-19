@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -111,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5,
-    "collapsed": true
+    "width": 280.5
   },
   "right": {
     "id": "329398b3dd8c5bd2",
