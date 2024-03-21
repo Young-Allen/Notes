@@ -92,7 +92,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "e7a1d18f322e6285",
@@ -111,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 280.5,
+    "collapsed": true
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -200,7 +202,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "9f005e06c047f81a",
+  "active": "90be94c4eeca4c7a",
   "lastOpenFiles": [
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md",
