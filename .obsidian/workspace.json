@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/李沐实用机器学习/2. 数据标注.md",
+                "file": "机器学习/李沐实用机器学习/3.数据探索性分析.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/李沐实用机器学习/2. 数据标注.md"
+                "file": "机器学习/李沐实用机器学习/3.数据探索性分析.md"
               }
             }
           }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/李沐实用机器学习/2. 数据标注.md",
+                "file": "机器学习/李沐实用机器学习/3.数据探索性分析.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,8 +201,9 @@
   },
   "active": "b3e20d3d8d486cf9",
   "lastOpenFiles": [
-    "机器学习/李沐实用机器学习/1. 数据获取.md",
     "机器学习/李沐实用机器学习/2. 数据标注.md",
+    "机器学习/李沐实用机器学习/3.数据探索性分析.md",
+    "机器学习/李沐实用机器学习/1. 数据获取.md",
     "未命名.md",
     "未命名",
     "img",
@@ -240,7 +241,6 @@
     "前端/小程序/PAST4N9CNM1SVHYQ[P`JQ8I.png",
     "前端/Vue/vue.md",
     "前端/前端学习路线.md",
-    "Unity/服务器后端部署.md",
     "机器学习/ML_NG/7-kmeans and PCA/data/bird_small.png",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习第十六章——异常检验/x-oss-process=image.png",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习第十六章——异常检验/math.svg",
