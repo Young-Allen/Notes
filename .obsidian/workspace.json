@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a6826be403101ed6",
+        "id": "280b0c08643cbf45",
         "type": "tabs",
         "children": [
           {
-            "id": "fad987a1af23f6e8",
+            "id": "b3e20d3d8d486cf9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/李沐实用机器学习/数据获取.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e09c8b3eeb3dac2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "机器学习/李沐实用机器学习/网页数据爬取.md",
+                "file": "机器学习/李沐实用机器学习/2. 数据标注.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/李沐实用机器学习/网页数据爬取.md"
+                "file": "机器学习/李沐实用机器学习/2. 数据标注.md"
               }
             }
           }
@@ -140,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/李沐实用机器学习/网页数据爬取.md",
+                "file": "机器学习/李沐实用机器学习/2. 数据标注.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,10 +199,11 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "4e09c8b3eeb3dac2",
+  "active": "b3e20d3d8d486cf9",
   "lastOpenFiles": [
-    "机器学习/李沐实用机器学习/数据获取.md",
-    "机器学习/李沐实用机器学习/网页数据爬取.md",
+    "机器学习/李沐实用机器学习/1. 数据获取.md",
+    "机器学习/李沐实用机器学习/2. 数据标注.md",
+    "未命名.md",
     "未命名",
     "img",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
@@ -253,7 +241,6 @@
     "前端/Vue/vue.md",
     "前端/前端学习路线.md",
     "Unity/服务器后端部署.md",
-    "Unity/5. 切换武器.md",
     "机器学习/ML_NG/7-kmeans and PCA/data/bird_small.png",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习第十六章——异常检验/x-oss-process=image.png",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习第十六章——异常检验/math.svg",
