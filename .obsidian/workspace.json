@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "集成学习",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -215,8 +215,10 @@
   },
   "active": "fad987a1af23f6e8",
   "lastOpenFiles": [
-    "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习常见模型.md",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md",
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "Excalidraw",
     "2024-03-17.md",
@@ -253,8 +255,6 @@
     "Unity/5. 切换武器.md",
     "Unity/4. 射击伤害与重生.md",
     "Unity/3. 飞行和射击.md",
-    "Unity/2.联机.md",
-    "Unity/1.项目创建和角色移动.md",
     "机器学习/ML_NG/7-kmeans and PCA/data/bird_small.png",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习第十六章——异常检验/x-oss-process=image.png",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习第十六章——异常检验/math.svg",
