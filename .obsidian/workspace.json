@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4e09c8b3eeb3dac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "机器学习/李沐实用机器学习/网页数据爬取.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,12 +101,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/李沐实用机器学习/数据获取.md"
+                "file": "机器学习/李沐实用机器学习/网页数据爬取.md"
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "e7a1d18f322e6285",
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/李沐实用机器学习/数据获取.md",
+                "file": "机器学习/李沐实用机器学习/网页数据爬取.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,11 +212,13 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "e161759745255825",
+  "active": "4e09c8b3eeb3dac2",
   "lastOpenFiles": [
+    "机器学习/李沐实用机器学习/数据获取.md",
+    "机器学习/李沐实用机器学习/网页数据爬取.md",
+    "未命名",
     "img",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
-    "机器学习/李沐实用机器学习/数据获取.md",
     "机器学习/李沐实用机器学习",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习常见模型.md",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md",
@@ -227,8 +241,6 @@
     "Java/尚硅谷_RabbitMQ课件.docx",
     "Java/SSM.md",
     "Java/SpringBoot课件_V3.2.docx",
-    "Java/Redis6.docx",
-    "Java/Nginx_课件_V3.0.docx",
     "Java/mysql.md",
     "Java/JavaWeb.md",
     "Java/Java.md",
