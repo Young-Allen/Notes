@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/李沐实用机器学习/3.数据探索性分析.md",
-                "mode": "source",
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/李沐实用机器学习/3.数据探索性分析.md"
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md"
               }
             }
           }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/李沐实用机器学习/3.数据探索性分析.md",
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,6 +186,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "surfing:surfing-bookmark-manager": false,
       "canvas:新建白板": false,
       "obsidian42-brat:BRAT": false,
       "publish:发布更改": false,
@@ -201,17 +202,17 @@
   },
   "active": "b3e20d3d8d486cf9",
   "lastOpenFiles": [
-    "机器学习/李沐实用机器学习/2. 数据标注.md",
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md",
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
     "机器学习/李沐实用机器学习/3.数据探索性分析.md",
+    "机器学习/李沐实用机器学习/2. 数据标注.md",
     "机器学习/李沐实用机器学习/1. 数据获取.md",
     "未命名.md",
     "未命名",
     "img",
-    "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
     "机器学习/李沐实用机器学习",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习常见模型.md",
-    "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md",
-    "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "Excalidraw",
     "2024-03-17.md",
