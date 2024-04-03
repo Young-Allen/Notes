@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "1神经网络",
-      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/1神经网络.md"
+      "basename": "模型评估指标",
+      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/模型评估指标.md"
+    },
+    {
+      "basename": "关于大模型的一些思考",
+      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/关于大模型的一些思考.md"
+    },
+    {
+      "basename": "代价函数不是凸函数吗，为什么还会有局部最优的情况",
+      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/代价函数不是凸函数吗，为什么还会有局部最优的情况.md"
+    },
+    {
+      "basename": "代价函数、优化函数-Bing",
+      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/代价函数、优化函数-Bing.md"
     },
     {
       "basename": "4树模型",
       "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md"
+    },
+    {
+      "basename": "1神经网络",
+      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/1神经网络.md"
     },
     {
       "basename": "0监督学习",
@@ -15,6 +31,10 @@
     {
       "basename": "3模型评估",
       "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md"
+    },
+    {
+      "basename": "5无监督学习",
+      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/5无监督学习.md"
     },
     {
       "basename": "3.数据探索性分析",

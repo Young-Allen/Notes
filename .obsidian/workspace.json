@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b3e20d3d8d486cf9",
+            "id": "8512bb9fb9d69a89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/1神经网络.md",
-                "mode": "preview",
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/模型评估指标.md",
+                "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "7f788932710ed78a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/1神经网络.md"
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/模型评估指标.md"
               }
             }
           }
@@ -138,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/1神经网络.md",
+                "file": "机器学习/Machine-Learning-Andrew-Ng-2022-master/模型评估指标.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,16 +200,21 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "7f788932710ed78a",
+  "active": "8512bb9fb9d69a89",
   "lastOpenFiles": [
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/关于大模型的一些思考.md",
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/模型评估指标.md",
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/代价函数不是凸函数吗，为什么还会有局部最优的情况.md",
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/代价函数、优化函数-Bing.md",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md",
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/1神经网络.md",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md",
+    "机器学习/Machine-Learning-Andrew-Ng-2022-master/5无监督学习.md",
     "机器学习/day08_数据预处理与特征工程 full version.pdf",
     "机器学习/李沐实用机器学习/3.数据探索性分析.md",
     "机器学习/李沐实用机器学习/2. 数据标注.md",
     "机器学习/李沐实用机器学习/1. 数据获取.md",
-    "未命名.md",
     "未命名",
     "img",
     "机器学习/李沐实用机器学习",
@@ -244,14 +238,10 @@
     "Java/SSM.md",
     "Java/mysql.md",
     "Java/JavaWeb.md",
-    "Java/Java.md",
-    "Python/Django/Linux、Django、docker.md",
     "前端/服创/img/Pasted image 20230327203659.png",
     "前端/服创/img/Pasted image 20230327203646.png",
     "前端/服创/img/Pasted image 20230327203636.png",
-    "前端/服创/开发日志.md",
     "前端/小程序/PAST4N9CNM1SVHYQ[P`JQ8I.png",
-    "前端/Vue/vue.md",
     "机器学习/ML_NG/7-kmeans and PCA/data/bird_small.png",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习第十六章——异常检验/x-oss-process=image.png",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习第十六章——异常检验/math.svg",
