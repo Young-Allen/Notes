@@ -1,40 +1,104 @@
 {
   "recentFiles": [
     {
+      "basename": "Drawing 2024-03-17 19.41.50.excalidraw",
+      "path": "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md"
+    },
+    {
+      "basename": "3.0 数据预处理与特征工程",
+      "path": "机器学习/sklearn机器学习pdf/3.0 数据预处理与特征工程.pdf"
+    },
+    {
+      "basename": "4.0 降维算法",
+      "path": "机器学习/sklearn机器学习pdf/4.0 降维算法.pdf"
+    },
+    {
+      "basename": "2.0 随机森林",
+      "path": "机器学习/sklearn机器学习pdf/2.0 随机森林.pdf"
+    },
+    {
+      "basename": "1.0 决策树",
+      "path": "机器学习/sklearn机器学习pdf/1.0 决策树.pdf"
+    },
+    {
+      "basename": "1.1 决策树原理",
+      "path": "机器学习/sklearn机器学习pdf/1.1 决策树原理.pdf"
+    },
+    {
+      "basename": "XGBoost",
+      "path": "机器学习/Machine-Learning/XGBoost.pdf"
+    },
+    {
+      "basename": "x-oss-process=image",
+      "path": "机器学习/Machine-Learning/机器学习第十六章——异常检验/x-oss-process=image.png"
+    },
+    {
+      "basename": "math.13",
+      "path": "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.13.svg"
+    },
+    {
+      "basename": "math.15",
+      "path": "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.15.svg"
+    },
+    {
+      "basename": "math.17",
+      "path": "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.17.svg"
+    },
+    {
       "basename": "0监督学习",
-      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/0监督学习.md"
+      "path": "机器学习/Machine-Learning/assets/0监督学习.png"
+    },
+    {
+      "basename": "ex1",
+      "path": "机器学习/ML_NG课后习题/01-linear regression/ex1.pdf"
+    },
+    {
+      "basename": "ex6",
+      "path": "机器学习/ML_NG课后习题/6-SVM/ex6.pdf"
+    },
+    {
+      "basename": "bird_small",
+      "path": "机器学习/ML_NG课后习题/7-kmeans and PCA/data/bird_small.png"
+    },
+    {
+      "basename": "ex7",
+      "path": "机器学习/ML_NG课后习题/7-kmeans and PCA/ex7.pdf"
+    },
+    {
+      "basename": "0监督学习",
+      "path": "机器学习/Machine-Learning/0监督学习.md"
     },
     {
       "basename": "1神经网络",
-      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/1神经网络.md"
+      "path": "机器学习/Machine-Learning/1神经网络.md"
     },
     {
       "basename": "3模型评估",
-      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/3模型评估.md"
+      "path": "机器学习/Machine-Learning/3模型评估.md"
     },
     {
       "basename": "6推荐系统",
-      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/6推荐系统.md"
+      "path": "机器学习/Machine-Learning/6推荐系统.md"
     },
     {
       "basename": "4树模型",
-      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/4树模型.md"
+      "path": "机器学习/Machine-Learning/4树模型.md"
     },
     {
       "basename": "关于大模型的一些思考",
-      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/关于大模型的一些思考.md"
+      "path": "机器学习/Machine-Learning/关于大模型的一些思考.md"
     },
     {
       "basename": "代价函数不是凸函数吗，为什么还会有局部最优的情况",
-      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/代价函数不是凸函数吗，为什么还会有局部最优的情况.md"
+      "path": "机器学习/Machine-Learning/代价函数不是凸函数吗，为什么还会有局部最优的情况.md"
     },
     {
       "basename": "代价函数、优化函数-Bing",
-      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/代价函数、优化函数-Bing.md"
+      "path": "机器学习/Machine-Learning/代价函数、优化函数-Bing.md"
     },
     {
       "basename": "5无监督学习",
-      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/5无监督学习.md"
+      "path": "机器学习/Machine-Learning/5无监督学习.md"
     },
     {
       "basename": "3.数据探索性分析",
@@ -50,15 +114,11 @@
     },
     {
       "basename": "机器学习常见模型",
-      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/机器学习常见模型.md"
-    },
-    {
-      "basename": "Drawing 2024-03-17 19.41.50.excalidraw",
-      "path": "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md"
+      "path": "机器学习/Machine-Learning/机器学习常见模型.md"
     },
     {
       "basename": "学习算法的思路",
-      "path": "机器学习/Machine-Learning-Andrew-Ng-2022-master/学习算法的思路.md"
+      "path": "机器学习/Machine-Learning/学习算法的思路.md"
     },
     {
       "basename": "未命名",
@@ -139,50 +199,6 @@
     {
       "basename": "基数排序",
       "path": "算法/排序/基数排序.md"
-    },
-    {
-      "basename": "归并排序",
-      "path": "算法/排序/归并排序.md"
-    },
-    {
-      "basename": "插入排序",
-      "path": "算法/排序/插入排序.md"
-    },
-    {
-      "basename": "前缀和",
-      "path": "算法/前缀和和差分/前缀和.md"
-    },
-    {
-      "basename": "差分",
-      "path": "算法/前缀和和差分/差分.md"
-    },
-    {
-      "basename": "queue容器和deque容器",
-      "path": "算法/数据结构和STL使用/queue容器和deque容器.pdf"
-    },
-    {
-      "basename": "algorithm头文件的常用函数",
-      "path": "算法/数据结构和STL使用/algorithm头文件的常用函数.pdf"
-    },
-    {
-      "basename": "bitset",
-      "path": "算法/数据结构和STL使用/bitset.pdf"
-    },
-    {
-      "basename": "list容器",
-      "path": "算法/数据结构和STL使用/list容器.pdf"
-    },
-    {
-      "basename": "map容器",
-      "path": "算法/数据结构和STL使用/map容器.pdf"
-    },
-    {
-      "basename": "pair对组",
-      "path": "算法/数据结构和STL使用/pair对组.pdf"
-    },
-    {
-      "basename": "set容器",
-      "path": "算法/数据结构和STL使用/set容器.pdf"
     }
   ],
   "omittedPaths": [],
