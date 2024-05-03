@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "1.PyTorch：张量简介及创建",
+      "path": "深度学习/1.PyTorch：张量简介及创建.md"
+    },
+    {
       "basename": "Drawing 2024-03-17 19.41.50.excalidraw",
       "path": "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "背包九讲",
       "path": "算法/Carl/背包九讲.pdf"
-    },
-    {
-      "basename": "基数排序",
-      "path": "算法/排序/基数排序.md"
     }
   ],
   "omittedPaths": [],
