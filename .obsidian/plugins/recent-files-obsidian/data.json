@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "0监督学习",
+      "path": "机器学习/Machine-Learning/0监督学习.md"
+    },
+    {
       "basename": "1.PyTorch：张量简介及创建",
       "path": "深度学习/1.PyTorch：张量简介及创建.md"
     },
@@ -67,10 +71,6 @@
     {
       "basename": "ex7",
       "path": "机器学习/ML_NG课后习题/7-kmeans and PCA/ex7.pdf"
-    },
-    {
-      "basename": "0监督学习",
-      "path": "机器学习/Machine-Learning/0监督学习.md"
     },
     {
       "basename": "1神经网络",

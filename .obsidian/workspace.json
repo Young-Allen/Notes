@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "深度学习/1.PyTorch：张量简介及创建.md",
+                "file": "机器学习/Machine-Learning/0监督学习.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/1.PyTorch：张量简介及创建.md"
+                "file": "机器学习/Machine-Learning/0监督学习.md"
               }
             }
           }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/1.PyTorch：张量简介及创建.md",
+                "file": "机器学习/Machine-Learning/0监督学习.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,8 +213,8 @@
   },
   "active": "ff7ca3d66a3f5c0f",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "深度学习/1.PyTorch：张量简介及创建.md",
+    "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "深度学习",
     "机器学习/sklearn机器学习pdf/3.0 数据预处理与特征工程.pdf",
     "机器学习/sklearn机器学习pdf/4.0 降维算法.pdf",
