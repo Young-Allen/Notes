@@ -28,9 +28,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "687b445eda980202",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -211,7 +221,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "ff7ca3d66a3f5c0f",
+  "active": "687b445eda980202",
   "lastOpenFiles": [
     "深度学习/1.PyTorch：张量简介及创建.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
