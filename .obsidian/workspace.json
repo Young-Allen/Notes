@@ -21,8 +21,12 @@
             "id": "ff7ca3d66a3f5c0f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "深度学习/1.PyTorch：张量简介及创建.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -95,11 +99,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/Machine-Learning/0监督学习.md"
+                "file": "深度学习/1.PyTorch：张量简介及创建.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "e7a1d18f322e6285",
@@ -134,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/Machine-Learning/0监督学习.md",
+                "file": "深度学习/1.PyTorch：张量简介及创建.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +212,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "ff7ca3d66a3f5c0f",
+  "active": "90be94c4eeca4c7a",
   "lastOpenFiles": [
     "深度学习/1.PyTorch：张量简介及创建.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
