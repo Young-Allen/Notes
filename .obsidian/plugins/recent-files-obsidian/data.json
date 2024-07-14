@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Drawing 2024-03-17 19.41.50.excalidraw",
-      "path": "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md"
+      "basename": "Daily Work",
+      "path": "Daily Work.md"
     },
     {
       "basename": "1.PyTorch：张量简介及创建",
       "path": "深度学习/1.PyTorch：张量简介及创建.md"
+    },
+    {
+      "basename": "Drawing 2024-03-17 19.41.50.excalidraw",
+      "path": "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md"
     },
     {
       "basename": "0监督学习",
@@ -195,10 +199,6 @@
     {
       "basename": "常用数学公式函数",
       "path": "算法/数论/常用数学公式函数.md"
-    },
-    {
-      "basename": "背包九讲",
-      "path": "算法/Carl/背包九讲.pdf"
     }
   ],
   "omittedPaths": [],

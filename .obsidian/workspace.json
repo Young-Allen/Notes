@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "280b0c08643cbf45",
+        "id": "69bbd6bf17c62bb2",
         "type": "tabs",
         "children": [
           {
-            "id": "8512bb9fb9d69a89",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "ff7ca3d66a3f5c0f",
+            "id": "4720a3da58feb062",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "深度学习/1.PyTorch：张量简介及创建.md",
+                "file": "Daily Work.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,12 +88,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md"
+                "file": "Daily Work.md"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "e7a1d18f322e6285",
@@ -139,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
+                "file": "Daily Work.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,9 +200,10 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "90be94c4eeca4c7a",
+  "active": "4720a3da58feb062",
   "lastOpenFiles": [
     "深度学习/1.PyTorch：张量简介及创建.md",
+    "Daily Work.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "深度学习",
     "机器学习/sklearn机器学习pdf/3.0 数据预处理与特征工程.pdf",
@@ -255,7 +244,6 @@
     "408/操作系统/第二章 进程的描述与控制.md",
     "408/操作系统/第一章 操作系统导论.md",
     "Java/集合.md",
-    "Java/SSM.md",
     "前端/服创/img/Pasted image 20230327203659.png",
     "前端/服创/img/Pasted image 20230327203646.png",
     "前端/服创/img/Pasted image 20230327203636.png",
