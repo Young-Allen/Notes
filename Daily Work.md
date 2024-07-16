@@ -8,4 +8,5 @@
 2. 看style-aligned论文
 3. 试着跑了一下style-aligned（结果显存不够，申请服务了）
 4. 下载LlamaGen模型来玩一玩
-   
+#### 时间：7月16日
+1. 
