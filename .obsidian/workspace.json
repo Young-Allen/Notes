@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Work.md",
+                "file": "深度学习/Style Transfer.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Work.md"
+                "file": "深度学习/Style Transfer.md"
               }
             }
           }
@@ -111,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252
+    "width": 200
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Work.md",
+                "file": "深度学习/Style Transfer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,8 +202,9 @@
   },
   "active": "4720a3da58feb062",
   "lastOpenFiles": [
-    "深度学习/1.PyTorch：张量简介及创建.md",
     "Daily Work.md",
+    "深度学习/Style Transfer.md",
+    "深度学习/1.PyTorch：张量简介及创建.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "深度学习",
     "机器学习/sklearn机器学习pdf/3.0 数据预处理与特征工程.pdf",
@@ -243,7 +244,6 @@
     "408/操作系统/第三章 处理机调度与死锁.md",
     "408/操作系统/第二章 进程的描述与控制.md",
     "408/操作系统/第一章 操作系统导论.md",
-    "Java/集合.md",
     "前端/服创/img/Pasted image 20230327203659.png",
     "前端/服创/img/Pasted image 20230327203646.png",
     "前端/服创/img/Pasted image 20230327203636.png",

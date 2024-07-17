@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Style Transfer",
+      "path": "深度学习/Style Transfer.md"
+    },
+    {
       "basename": "Daily Work",
       "path": "Daily Work.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "快速幂",
       "path": "算法/数论/快速幂.pdf"
-    },
-    {
-      "basename": "常用数学公式函数",
-      "path": "算法/数论/常用数学公式函数.md"
     }
   ],
   "omittedPaths": [],
