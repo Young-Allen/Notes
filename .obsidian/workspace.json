@@ -11,11 +11,14 @@
             "id": "4720a3da58feb062",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "深度学习/Style Transfer.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名.canvas",
+                "viewState": {
+                  "x": -112.20339531791579,
+                  "y": -69.63404622680537,
+                  "zoom": -0.6666666666666667
+                }
               }
             }
           }
@@ -88,7 +91,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/Style Transfer.md"
+                "file": "未命名.canvas"
               }
             }
           }
@@ -111,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -127,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/Style Transfer.md",
+                "file": "未命名.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,9 +206,11 @@
   },
   "active": "4720a3da58feb062",
   "lastOpenFiles": [
-    "Daily Work.md",
+    "深度学习/vector image.md",
+    "未命名.canvas",
     "深度学习/Style Transfer.md",
     "深度学习/1.PyTorch：张量简介及创建.md",
+    "Daily Work.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "深度学习",
     "机器学习/sklearn机器学习pdf/3.0 数据预处理与特征工程.pdf",
@@ -242,13 +248,10 @@
     "408/操作系统/索引（index）.md",
     "408/操作系统/第六章 输入输出系统.md",
     "408/操作系统/第三章 处理机调度与死锁.md",
-    "408/操作系统/第二章 进程的描述与控制.md",
-    "408/操作系统/第一章 操作系统导论.md",
     "前端/服创/img/Pasted image 20230327203659.png",
     "前端/服创/img/Pasted image 20230327203646.png",
     "前端/服创/img/Pasted image 20230327203636.png",
     "前端/小程序/PAST4N9CNM1SVHYQ[P`JQ8I.png",
-    "未命名.canvas",
     "canvasDraft.canvas"
   ]
 }

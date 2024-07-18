@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "未命名.canvas"
+    },
+    {
+      "basename": "vector image",
+      "path": "深度学习/vector image.md"
+    },
+    {
       "basename": "Style Transfer",
       "path": "深度学习/Style Transfer.md"
     },
     {
-      "basename": "Daily Work",
-      "path": "Daily Work.md"
-    },
-    {
       "basename": "1.PyTorch：张量简介及创建",
       "path": "深度学习/1.PyTorch：张量简介及创建.md"
+    },
+    {
+      "basename": "Daily Work",
+      "path": "Daily Work.md"
     },
     {
       "basename": "Drawing 2024-03-17 19.41.50.excalidraw",
@@ -191,14 +199,6 @@
     {
       "basename": "最大公约数、最小公倍数",
       "path": "算法/数论/最大公约数、最小公倍数.pdf"
-    },
-    {
-      "basename": "欧拉函数",
-      "path": "算法/数论/欧拉函数.pdf"
-    },
-    {
-      "basename": "快速幂",
-      "path": "算法/数论/快速幂.pdf"
     }
   ],
   "omittedPaths": [],
