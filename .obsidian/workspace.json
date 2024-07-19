@@ -21,8 +21,19 @@
                 }
               }
             }
+          },
+          {
+            "id": "aa989131ff3dc865",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,7 +215,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "4720a3da58feb062",
+  "active": "aa989131ff3dc865",
   "lastOpenFiles": [
     "深度学习/vector image.md",
     "未命名.canvas",
