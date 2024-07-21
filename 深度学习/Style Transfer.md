@@ -3,7 +3,29 @@
 
 
 ### 2. Style Aligned Image Generation via Shared Attention
-- **实验目的**：使用一张参考图像，生成一系列风格与参考图像一致的图像
+- **Intro**：使用一张参考图像，生成一系列风格与参考图像一致的图像，解决了在大规模文本到图像模型中实现风格对齐图像生成的难题。通过在扩散过程中引入带有AdaIN的注意力共享操作，使得在生成图像中成功建立风格一致和视觉连贯的图像。
+
+- **Method overview**：
+  “The key insight underlying our approach is the utilization of the self-attention mechanism to allow communication among various generated images.” (Hertz 等, 2024, p. 4) 
+  我们方法的关键见解是利用自注意力机制来允许各种生成的图像之间进行通信。在生成的图像中共享注意力层。
+  1. 但是Full Attention Sharing会导致图像之间的内容泄露，如下图中，独角兽获取了恐龙的颜色信息。![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721143035.png)
+  2. 同时，Full Attention Sharing还会导致同一组生成的图像集缺少多样性。
+
+  为了限制内容泄露并让生成的图像的内容更加多样化，我们只对生成集合中的一张图像进行注意力共享。（一般是一个batch中的第一张图像）但是只关注集合中的一张图像会产生风格相似的不同集合，如下图恐龙和独角兽的朝向就不太统一。![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721150426.png)
+  引入AdaIN对Reference Features和Target Features的K和Q进行AdaIN归一化操作，然后进行Scaled Dot-Product Attention。![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721144104.png)
+  公式如下：
+  $\hat{Q}_t=\mathrm{AdaIN}(Q_t,Q_r)\quad\hat{K}_t=\mathrm{AdaIN}(K_t,K_r),$
+  $\mathrm{AdaIN}(x,y)=\sigma(y)\left(\frac{x-\mu(x)}{\sigma(x)}\right)+\mu(y)$
+  $\mathrm{Attention}(\hat{Q}_{t},K_{rt}^{T},V_{rt}),$
+  $\text{where }K_{rt}=\begin{bmatrix}K_r\\\hat{K}_t\end{bmatrix}\text{and}V_{rt}=\begin{bmatrix}V_r\\V_t\end{bmatrix}.$
+- **Evaluations and Experiments**
+  1. **Evaluation set**：在 ChatGPT 的支持下，我们生成了100个文本提示，描述了四个随机对象的不同图像风格。例如，“{一把吉他，一个热气球，一艘帆船，一座山}的剪纸艺术风格。” 对于每种风格和对象集，我们使用我们的方法生成一组图像。
+  2. **Metrics**：为了验证每个生成的图像包含其指定的对象，我们测量图像与对象文本描述之间的 CLIP 余弦相似度 。此外，我们通过测量每个生成集内生成图像的 DINO VIT-B/8 [9] 嵌入的成对平均余弦相似度，来评估每个生成集的风格一致性。![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721152112.png)
+  3. **Comparisons**：作为基准，我们将我们的方法与T2I个性化方法进行比较。我们在评估数据集中每组的第一张图像上训练StyleDrop [55]和DreamBooth [47]，并使用训练后的个性化权重生成每组中的另外三张图像。我们使用了非回归T2I模型的公共非官方实现版StyleDrop1（SDRPunofficial）。由于非官方MUSE模型2与官方模型之间存在较大的质量差距，我们遵循StyleDrop并在SDXL（SDRP–SDXL）上实现了一个适配器模型，在模型的注意力块的每个前馈层后训练一个低秩线性层。为了训练DreamBooth，我们在SDXL上采用了LoRA [25, 49]变体（DB–LoRA），使用公共的huggingface–diffusers实现3。我们遵循[55]中报告的超参数调整，并对SDRP–SDXL和DB–LoRA进行了400步的训练，以防止过拟合到风格训练图像。![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721161517.png)
+  
+
+
+  
 
 
 
