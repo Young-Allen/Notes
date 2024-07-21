@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "深度学习/Style Transfer.md",
+                "file": "深度学习/vector image.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/Style Transfer.md"
+                "file": "深度学习/vector image.md"
               }
             }
           }
@@ -111,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 222,
     "collapsed": true
   },
   "right": {
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/Style Transfer.md",
+                "file": "深度学习/vector image.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,9 +203,9 @@
   },
   "active": "aa989131ff3dc865",
   "lastOpenFiles": [
+    "深度学习/Style Transfer.md",
     "Daily Work.md",
     "未命名.canvas",
-    "深度学习/Style Transfer.md",
     "深度学习/vector image.md",
     "深度学习/1.PyTorch：张量简介及创建.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",

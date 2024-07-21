@@ -6,7 +6,6 @@
 - **Intro**：使用一张参考图像，生成一系列风格与参考图像一致的图像，解决了在大规模文本到图像模型中实现风格对齐图像生成的难题。通过在扩散过程中引入带有AdaIN的注意力共享操作，使得在生成图像中成功建立风格一致和视觉连贯的图像。
 
 - **Method overview**：
-  “The key insight underlying our approach is the utilization of the self-attention mechanism to allow communication among various generated images.” (Hertz 等, 2024, p. 4) 
   我们方法的关键见解是利用自注意力机制来允许各种生成的图像之间进行通信。在生成的图像中共享注意力层。
   1. 但是Full Attention Sharing会导致图像之间的内容泄露，如下图中，独角兽获取了恐龙的颜色信息。![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721143035.png)
   2. 同时，Full Attention Sharing还会导致同一组生成的图像集缺少多样性。
@@ -19,11 +18,16 @@
   $\mathrm{Attention}(\hat{Q}_{t},K_{rt}^{T},V_{rt}),$
   $\text{where }K_{rt}=\begin{bmatrix}K_r\\\hat{K}_t\end{bmatrix}\text{and}V_{rt}=\begin{bmatrix}V_r\\V_t\end{bmatrix}.$
 - **Evaluations and Experiments**
-  1. **Evaluation set**：在 ChatGPT 的支持下，我们生成了100个文本提示，描述了四个随机对象的不同图像风格。例如，“{一把吉他，一个热气球，一艘帆船，一座山}的剪纸艺术风格。” 对于每种风格和对象集，我们使用我们的方法生成一组图像。
+  1. **Evaluation set**：在 ChatGPT 的支持下，我们生成了100个文本提示，描述了四个随机对象的不同图像风格。例如，“{A guitar, A hot air balloon, A sailboat, A mountain} in papercut art style.”对于每种风格和对象集，我们使用我们的方法生成一组图像。
   2. **Metrics**：为了验证每个生成的图像包含其指定的对象，我们测量图像与对象文本描述之间的 CLIP 余弦相似度 。此外，我们通过测量每个生成集内生成图像的 DINO VIT-B/8 [9] 嵌入的成对平均余弦相似度，来评估每个生成集的风格一致性。![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721152112.png)
   3. **Comparisons**：作为基准，我们将我们的方法与T2I个性化方法进行比较。我们在评估数据集中每组的第一张图像上训练StyleDrop [55]和DreamBooth [47]，并使用训练后的个性化权重生成每组中的另外三张图像。我们使用了非回归T2I模型的公共非官方实现版StyleDrop1（SDRPunofficial）。由于非官方MUSE模型2与官方模型之间存在较大的质量差距，我们遵循StyleDrop并在SDXL（SDRP–SDXL）上实现了一个适配器模型，在模型的注意力块的每个前馈层后训练一个低秩线性层。为了训练DreamBooth，我们在SDXL上采用了LoRA [25, 49]变体（DB–LoRA），使用公共的huggingface–diffusers实现3。我们遵循[55]中报告的超参数调整，并对SDRP–SDXL和DB–LoRA进行了400步的训练，以防止过拟合到风格训练图像。![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721161517.png)
   
 
+- **代码：**
+  1. StyleAligned over SDXL：
+     share_group_norm=True,   share_layer_norm=True,  share_attention=True,![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721184539.png)share_group_norm=False,   share_layer_norm=True,  share_attention=True,![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721184832.png)share_group_norm=False,   share_layer_norm=False,  share_attention=True,![](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721185252.png)
+     share_group_norm=False,   share_layer_norm=False,  share_attention=False,![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721185740.png)
+      
 
   
 
@@ -48,4 +52,4 @@
   
   其中， **𝜇(𝑥) 和 𝜎(𝑥)** 分别表示content image的特征的均值和标准差，**𝜇(𝑦) 和 𝜎(𝑦)** 分别表示style image的特征的均值和标准差。这个公式可以理解为，先去风格化（减去自身均值再除以自身标准差），再风格化到style image的风格（乘style image的标准差再加均值 ）。
   网络结构图：
-  ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721130256.png)训练时，先用VGG提取content image和style image的特征，然后在AdaIN模块进行式（8）的操作，然后用于VGG对称的Decoder网络将特征还原为图像，然后将还原的图像再输入到VGG提取特征，计算content loss和style loss，style loss会对多个层的特征进行计算。VGG的参数在训练过程中是不更新的，训练的目的是为了得到一个好的Decoder。
+  ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721130256.png)训练时，先用VGG提取content image和style image的特征，然后在使用AdaIN进行操作，然后用于VGG对称的Decoder网络将特征还原为图像，然后将还原的图像再输入到VGG提取特征，计算content loss和style loss，style loss会对多个层的特征进行计算。VGG的参数在训练过程中是不更新的，训练的目的是为了得到一个好的Decoder。
