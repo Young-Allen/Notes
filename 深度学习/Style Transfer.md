@@ -4,3 +4,7 @@
 
 ### 2. Style Aligned Image Generation via Shared Attention
 - **实验目的**：使用一张参考图像，生成一系列风格与参考图像一致的图像
+
+### 3. Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization
+![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240721120419.png)
+
