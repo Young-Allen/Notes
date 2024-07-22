@@ -25,4 +25,6 @@
   1. 矢量图形的简洁性可能是一把双刃剑。虽然创建简单的色彩渐变很容易，但像平滑阴影（smooth shadows）、腐蚀效果（caustic effects）和散焦模糊（defocus blur）等复杂的色彩变换却很难通过基本的渐变函数直接表现出来。（是否可以使用相关的生成模型，通过优化渐变函数的生成，来达到更容易生成更复杂的色彩变换？）
   2. 当所需的细节量增加时，矢量图形的编辑过程既需要扎实的艺术技巧，又需要大量的工作时间才能获得复杂的效果。（能否设计一个便于非艺术专家也可以很好的进行矢量图编辑的工具，在进一步优化生成时间的同时还可以指导用户完成对应工作的需求？）
   3. 矢量图更多地用于表示风格化的图像（stylized images）。（最近的风格化矢量图生成的论文：VectorPainter: A Novel Approach to Stylized Vector Graphics Synthesis with Vectorized Strokes。有点像style aligned的工作）
-  4. 
+- **本文将矢量图形的表示法分为两类**：
+  1. Mesh-based representations decompose an image into 2D patches, where color is interpolated inside each patch. In this survey, we consider this formulation as generalization of simple shapes and gradients.
+  2. Curve-based representations mimic the traditional artistic habits of drawing on paper. The curves usually represent extrema in the color gradient, and the resulting image is often computed by solving a partial differential equation (PDE).
