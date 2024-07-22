@@ -26,5 +26,5 @@
   2. 当所需的细节量增加时，矢量图形的编辑过程既需要扎实的艺术技巧，又需要大量的工作时间才能获得复杂的效果。（能否设计一个便于非艺术专家也可以很好的进行矢量图编辑的工具，在进一步优化生成时间的同时还可以指导用户完成对应工作的需求？）
   3. 矢量图更多地用于表示风格化的图像（stylized images）。（最近的风格化矢量图生成的论文：VectorPainter: A Novel Approach to Stylized Vector Graphics Synthesis with Vectorized Strokes。有点像style aligned的工作）
 - **本文将矢量图形的表示法分为两类**：
-  1. Mesh-based representations decompose an image into 2D patches, where color is interpolated inside each patch. In this survey, we consider this formulation as generalization of simple shapes and gradients.
+  1. Mesh-based：将图像域划分为不重叠的2D块，在这些块上插入颜色。该表示方法主要涉及块的放置和连接性，并确定颜色的插值方式。面片形状可以是三角形、矩形或者是不规则图形，而颜色和其他属性存储顶点或面片内部。
   2. Curve-based representations mimic the traditional artistic habits of drawing on paper. The curves usually represent extrema in the color gradient, and the resulting image is often computed by solving a partial differential equation (PDE).
