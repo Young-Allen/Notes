@@ -5,16 +5,16 @@
       "path": "深度学习/vector image.md"
     },
     {
-      "basename": "Style Transfer",
-      "path": "深度学习/Style Transfer.md"
-    },
-    {
       "basename": "Daily Work",
       "path": "Daily Work.md"
     },
     {
-      "basename": "Drawing 2024-03-17 19.41.50.excalidraw",
-      "path": "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md"
+      "basename": "Style Transfer",
+      "path": "深度学习/Style Transfer.md"
+    },
+    {
+      "basename": "Drawing 2024-07-22 09.34.33.excalidraw",
+      "path": "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md"
     },
     {
       "basename": "0监督学习",
@@ -187,10 +187,6 @@
     {
       "basename": "进制转换",
       "path": "算法/数论/进制转换.pdf"
-    },
-    {
-      "basename": "最大公约数、最小公倍数",
-      "path": "算法/数论/最大公约数、最小公倍数.pdf"
     }
   ],
   "omittedPaths": [],

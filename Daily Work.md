@@ -18,3 +18,13 @@
 #### 时间7月19日
 1. 初步运行style-aligned代码得到结果
 2. 继续看style-aligned论文，结合代码分析训练步骤和细节
+
+#### 时间7月21日
+1. 再看了一遍Image Vectorization: a Review这篇文章，主要分析他提出的5个进行实验对比的指标，思考对比实验可以采用什么方法和指标。
+   - similarity to the original bitmap；
+   - the simplicity or complexity of the resulting image including the number of shapes and their parameters；
+   - the speed of generation；
+   - versatility — the ability to generate a fairly accurate copy of the input image without prior model training；
+   - human control to adjust hyperparameters.
+   总结来说，矢量化方法在图像质量、路径数量、段数、路径是否封闭、迭代次数和运行时间之间存在权衡。（我们在生成矢量图形时需要考虑的因素）
+2. 

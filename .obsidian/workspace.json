@@ -4,16 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "69bbd6bf17c62bb2",
+        "id": "335631e45bc0d20b",
         "type": "tabs",
         "children": [
           {
-            "id": "aa989131ff3dc865",
+            "id": "c922090fff2490fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "深度学习/vector image.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a240b8069f87dcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "深度学习/Style Transfer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6bc0912c3b89d8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Work.md",
                 "mode": "source",
                 "source": false
               }
@@ -201,14 +225,18 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "aa989131ff3dc865",
+  "active": "c922090fff2490fa",
   "lastOpenFiles": [
-    "深度学习/Style Transfer.md",
     "Daily Work.md",
-    "未命名.canvas",
     "深度学习/vector image.md",
-    "深度学习/1.PyTorch：张量简介及创建.md",
+    "深度学习/Style Transfer.md",
+    "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-22 09.34.14.excalidraw.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-22 09.31.56.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-22 09.33.55.excalidraw.md",
+    "未命名.canvas",
+    "深度学习/1.PyTorch：张量简介及创建.md",
     "深度学习",
     "机器学习/sklearn机器学习pdf/3.0 数据预处理与特征工程.pdf",
     "机器学习/sklearn机器学习pdf/4.0 降维算法.pdf",
@@ -242,9 +270,6 @@
     "2024-03-17.md",
     "机器学习/Machine-Learning/学习算法的思路.md",
     "conflict-files-obsidian-git.md",
-    "408/操作系统/索引（index）.md",
-    "408/操作系统/第六章 输入输出系统.md",
-    "408/操作系统/第三章 处理机调度与死锁.md",
     "前端/服创/img/Pasted image 20230327203659.png",
     "前端/服创/img/Pasted image 20230327203646.png",
     "前端/服创/img/Pasted image 20230327203636.png",
