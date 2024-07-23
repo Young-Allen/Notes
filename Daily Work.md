@@ -27,4 +27,3 @@
    - versatility — the ability to generate a fairly accurate copy of the input image without prior model training；
    - human control to adjust hyperparameters.
    总结来说，矢量化方法在图像质量、路径数量、段数、路径是否封闭、迭代次数和运行时间之间存在权衡。（我们在生成矢量图形时需要考虑的因素）
-2. 
