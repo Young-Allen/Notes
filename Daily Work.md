@@ -27,3 +27,14 @@
    - versatility — the ability to generate a fairly accurate copy of the input image without prior model training；
    - human control to adjust hyperparameters.
    总结来说，矢量化方法在图像质量、路径数量、段数、路径是否封闭、迭代次数和运行时间之间存在权衡。（我们在生成矢量图形时需要考虑的因素）
+
+#### 时间7月22日
+
+#### 时间7月23日
+1. 运行style-drop(太多bug了)
+2. 运行diffusers的examples中的dreambooth项目()
+3. 运行unofficial的dreambooth(跑不起来)
+4. 找到一篇风格化矢量图的文章(VectorPainter: A Novel Approach to Stylized Vector Graphics Synthesis with Vectorized Strokes),明天看看吧
+#### 时间7月24日
+1. 学习accelerate多GPU部署,
+2. 学习wandb可视化
