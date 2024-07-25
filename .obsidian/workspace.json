@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Work.md"
+                "file": "深度学习/vector image.md"
               }
             }
           }
@@ -153,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Work.md",
+                "file": "深度学习/vector image.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,11 +225,11 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "a6bc0912c3b89d8f",
+  "active": "c922090fff2490fa",
   "lastOpenFiles": [
+    "Daily Work.md",
     "深度学习/Style Transfer.md",
     "深度学习/vector image.md",
-    "Daily Work.md",
     "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
     "Excalidraw/Drawing 2024-07-22 09.34.14.excalidraw.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",

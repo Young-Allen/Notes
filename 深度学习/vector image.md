@@ -30,4 +30,6 @@
   2. Curve-based representations mimic the traditional artistic habits of drawing on paper. The curves usually represent extrema in the color gradient, and the resulting image is often computed by solving a partial differential equation (PDE).
 
 ### 3. VectorPainter: A Novel Approach to Stylized Vector Graphics Synthesis with Vectorized Strokes
-- 
+- **实验目的**：生成风格化的矢量图形。给定文本提示和参考样式的图像，VP（VectorPainter）会生成一个矢量图形，该矢量图形的内容与文本提示对齐，并在样式上保持参考图像的忠实。
+- **文章中提及的一些问题**：
+  1. 对风格化矢量图生成的研究目前仍然有限。该领域内唯一现有的研究StyleCLIPDraw，主要遵循用于光栅图像的样式传输管道。在生成过程中，渲染合成的矢量图形，并将其风格与光栅图像空间中的参考图像进行比较。
