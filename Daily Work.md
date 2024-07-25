@@ -36,5 +36,4 @@
 3. 运行unofficial的dreambooth(跑不起来)
 4. 找到一篇风格化矢量图的文章(VectorPainter: A Novel Approach to Stylized Vector Graphics Synthesis with Vectorized Strokes),明天看看吧
 #### 时间7月24日
-1. 学习accelerate多GPU部署,
-2. 学习wandb可视化
+1. 学习accelerate多GPU部署,学习wandb可视化
