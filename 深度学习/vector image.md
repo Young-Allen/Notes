@@ -28,3 +28,6 @@
 - **本文将矢量图形的表示法分为两类**：
   1. Mesh-based：将图像域划分为不重叠的2D块，在这些块上插入颜色。该表示方法主要涉及块的放置和连接性，并确定颜色的插值方式。面片形状可以是三角形、矩形或者是不规则图形，而颜色和其他属性存储顶点或面片内部。
   2. Curve-based representations mimic the traditional artistic habits of drawing on paper. The curves usually represent extrema in the color gradient, and the resulting image is often computed by solving a partial differential equation (PDE).
+
+### 3. VectorPainter: A Novel Approach to Stylized Vector Graphics Synthesis with Vectorized Strokes
+- 
