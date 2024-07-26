@@ -37,3 +37,9 @@
 4. 找到一篇风格化矢量图的文章(VectorPainter: A Novel Approach to Stylized Vector Graphics Synthesis with Vectorized Strokes),明天看看吧
 #### 时间7月24日
 1. 学习accelerate多GPU部署,学习wandb可视化
+
+
+1. 点线面（p3)
+2. RGBA and rgb(p2)
+3. 1) 抽象概念；2）风格一致（简化图像的风格一致）；3）将比较复杂的纹理和阴影简化
+   ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240726165720.png)
