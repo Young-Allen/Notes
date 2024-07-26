@@ -50,8 +50,22 @@
     如图6所示，提取的矢量笔触可以精确重构原始参考图像，有效地保留其复杂的细节。这些矢量笔触包含参考图像的风格，可用于为矢量图形的生成提供风格先验信息。具体而言，我们建议使用从参考图像中获得的矢量笔触作为文本到SVG生成的初始SVG。与随机初始化矢量笔触形状的方法相比，我们的方法在最大程度上保留了参考图像的风格和细节。图10展示了两种初始化方法的定性比较。我们的方法在笔触层面上对参考图像表现出更高的保真度。
     ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240726114223.png)
  3. **SVG Synthesis with Style Supervision：**
-    
+    为了在不显著改变整体优化过程的情况下保持风格一致性，从而在最大程度上保留最终风格并最小化对单个笔触的更改，我们引入了风格保留损失函数（Style Preservation loss）。该损失函数从两个角度监控SVG合成：局部笔触级变形约束（local stroke-level deformation constraints）和整体绘画风格约束（global paint-conscious style constraints）。风格保留损失包含两个部分：一个是通过控制点实现的笔触对笔触级约束，另一个是通过感知相似度确定的全局级风格约束。
+    将从参考图像中提取的矢量笔触集合作为ground-truth（GT），在优化的过程中，每一个更新了的笔触都会与GT一一进行计算，
+    $\begin{aligned}&\mathcal{L}_{\mathrm{stroke}}(s^{\prime},s)=\frac{1}{N}\sum_{i=1}^{N}\|d(s_{i}^{\prime})-d(s_{i})\|_{2}^{2}\\&&\text{(1)}\\&\mathrm{where~}d(s)=\|\vec{p_{1}p_{2}}\|+\|\vec{p_{2}p_{3}}\|+\cos<\vec{p_{1}p_{2}},\vec{p_{2}p_{3}}>\end{aligned}$
+    公式中的$s' \in \{s'_i\}_{i=1}^{N}​$表示笔触集合中的一个笔触，而 $s_i​$ 表示更新后的笔触。 $p_i$​ 表示笔触 $s$和 $s′$的第 $i$ 个控制点。$Lstroke$损失函数在合成的矢量图形中避免过度的笔触变化，从而在微观层面上保持参考图像的风格。
+    笔触级损失确保优化中的矢量图形保持与参考图像一致的笔触。然而，这仍然缺乏全局风格一致性约束。因此，我们在风格保留损失中加入了$LPIPS$损失。$LPIPS$损失有助于使生成的风格化矢量图形在感知相似度水平上更接近参考图像$Is$。
+    $L_\mathrm{style}=\lambda_sL_\mathrm{stroke}(s',s)+\lambda_gL_\mathrm{LPIPS}(I,Is)$
+    其中，$\lambda_s$ 和 $\lambda_g$是风格保留损失的权重。$I = R(θ)$是渲染结果。LPIPS损失鼓励合成的风格化矢量图形在宏观层面上看起来更相似，例如使两幅图像的整体颜色更接近。实验结果表明，我们生成的矢量图形在微观和宏观层面上都与参考图像的风格相匹配。
+ 4. **Total Loss Objectives**：
    
+   
+- **EXPERIMENTS**：
+  我们将我们的方法（VP）和最近的一些方法进行了比较。
+  1. vector graphics synthesis methods：StyleCLIPDraw、Neural Style Transfer for Vector Graphics、Diffsketcher
+  2. strokebased rendering methods：Rethinking style transfer: From pixels to parameterized brushstrokes
+  3. style transfer methods on raster images：Style transfer by relaxed optimal transport and self-similarity
+  ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240726132646.png)
 
 
 

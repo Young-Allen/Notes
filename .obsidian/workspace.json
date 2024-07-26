@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c922090fff2490fa",
+            "id": "935e5cc5c531fd17",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -225,12 +225,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "c922090fff2490fa",
+  "active": "935e5cc5c531fd17",
   "lastOpenFiles": [
-    "Daily Work.md",
-    "深度学习/Style Transfer.md",
-    "深度学习/vector image.md",
     "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
+    "深度学习/vector image.md",
+    "深度学习/Style Transfer.md",
+    "Excalidraw/img/Pasted Image 20240726134153_763.png",
+    "Excalidraw/img/Pasted Image 20240726134053_734.png",
+    "Excalidraw/img",
+    "Daily Work.md",
     "Excalidraw/Drawing 2024-07-22 09.34.14.excalidraw.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "Excalidraw/Drawing 2024-07-22 09.31.56.excalidraw.md",
@@ -246,7 +249,6 @@
     "机器学习/sklearn机器学习pdf/9.1 SVM (下).pdf",
     "机器学习/sklearn机器学习pdf/9.0 SVM (上).pdf",
     "机器学习/sklearn机器学习pdf/5.0 聚类算法KMeans EDU.pdf",
-    "机器学习/sklearn机器学习pdf/6.0 逻辑回归.pdf",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/x-oss-process=image.png",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.13.svg",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.15.svg",
@@ -269,11 +271,8 @@
     "机器学习/Machine-Learning/机器学习常见模型.md",
     "2024-03-17.md",
     "机器学习/Machine-Learning/学习算法的思路.md",
-    "conflict-files-obsidian-git.md",
     "前端/服创/img/Pasted image 20230327203659.png",
     "前端/服创/img/Pasted image 20230327203646.png",
-    "前端/服创/img/Pasted image 20230327203636.png",
-    "前端/小程序/PAST4N9CNM1SVHYQ[P`JQ8I.png",
     "canvasDraft.canvas"
   ]
 }
