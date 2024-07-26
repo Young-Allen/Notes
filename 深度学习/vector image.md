@@ -41,5 +41,19 @@
   3. 我们进行了大量的实验来评估我们模型的有效性。结果证明VP在生成高质量风格化SVG方面的优越性。
 - **METHODOLOGY**：
   ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240726094617.png)
-1. Style Stroke Extraction：
+  1. **Style Stroke Extraction**：
+     我们从笔触的角度提取和学习参考图像的绘画风格，从而在矢量图形中准确再现参考图像的风格。同一幅艺术作品中的类似笔触表现出类似的属性，如纹理、颜色和亮度，因此形成具有视觉意义的不规则像素簇。利用这一观察结果，我们采用超级像素方法（a super-pixel method）来描绘这些像素簇，促进笔触的分组表示。
+     ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240726113303.png)
+     如图5所示，当给定一张风格图像时，我们使用 SLIC 方法将图像中具有相似特征的笔触划分为不同区域。我们将这些笔触组矢量化，每个笔触组对应一个 SVG 路径组，而这些 SVG 路径组作为矢量化参考图像的基本表示单元。此外，我们提出了一种新颖的笔触提取算法，用于将提取的区域表示为矢量化的笔触。如算法12所示，为了提取每个分割区域内的笔触，我们提出使用距离最远的一对点作为初始和终端控制点，计算区域的平均颜色作为笔触颜色，并计算边界点和控制点之间连接的平均距离。
+     ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240726112850.png)
+  2. **Vector Stroke Initialization**：
+    如图6所示，提取的矢量笔触可以精确重构原始参考图像，有效地保留其复杂的细节。这些矢量笔触包含参考图像的风格，可用于为矢量图形的生成提供风格先验信息。具体而言，我们建议使用从参考图像中获得的矢量笔触作为文本到SVG生成的初始SVG。与随机初始化矢量笔触形状的方法相比，我们的方法在最大程度上保留了参考图像的风格和细节。图10展示了两种初始化方法的定性比较。我们的方法在笔触层面上对参考图像表现出更高的保真度。
+    ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240726114223.png)
+ 3. **SVG Synthesis with Style Supervision：**
+    
    
+
+
+
+
+
