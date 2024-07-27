@@ -40,6 +40,6 @@
 
 
 1. 点线面（p3)
-2. RGBA and rgb(p2)
+2. RGBA and rgb（p2）
 3. 1) 抽象概念；2）风格一致（简化图像的风格一致）；3）将比较复杂的纹理和阴影简化
    ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240726165720.png)
