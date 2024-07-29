@@ -39,7 +39,7 @@
 1. 学习accelerate多GPU部署,学习wandb可视化
 
 
-1. 点线面（p3)
-2. RGBA and rgb（p2）
-3. 1) 抽象概念；2）风格一致（简化图像的风格一致）；3）将比较复杂的纹理和阴影简化
-   ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240726165720.png)
+#### 时间7月29日
+1. DreamBooth训练icon的效果
+2. 看StyleDrop: Text-to-Image Generation in Any Style论文
+3. 
