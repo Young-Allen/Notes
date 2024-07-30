@@ -1,7 +1,10 @@
 ### 1. DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation
 - **实验目的**：DreamBooth 旨在通过少量（通常3-5张）特定主题的图像，微调预训练的文本到图像模型（Diffusion Model），使其能够在不同的上下文中生成该主题的新图像，同时保持对主题关键视觉特征的高保真度。
 - **Abstract**：个性化指只要给模型某一个具体主体的很少几张图片之后，让一个预训练好的文生图模型将这个特定的 subject 绑定到一个 unique identifier 上去，那模型只要见到这个 unique identifier，就知道我们想要生成的是这个特定的主体。一旦模型学会了这个 unique identifier，这个 identifier 就可以用来生成某个特定物体的照片，并且是重情景化的，也就是出现在各种各样，以前没有出现过的情景之中。通过提出了一种new autogenous prior preservation loss，从而保证生成这个主体的多样性，不仅仅是把物体局限在输入图片所聚合一些 pose、view 上面去，而且能生成一些这个模型没有见过这个主体出现的 pose、view。这种技术可以应用非常困难的任务上，包括 subject recontextualization 主体重情景化，text-guided view synthesis 通过文本指导的全新视角的生成，以及 artist rendering 艺术渲染，让主体的照片具有某种艺术风格。做这些任务都能保证这个主体的主要特点是不变的。
-- 
+- **文中提及的一些问题：**
+  1. language drift：用一个 unique identifier 去绑定特定的主题。unique identifier 实际上是一个非常稀有的 token。例如，“A [V] dog” 中的 V 就是特定物体的 identifier，dog 是特定物体所属的类别。V 就相当于在 dog 这个 class 下面新建了一个对象。把这样的文本和图片输入到模型中去，模型可能会出现 language drift 的现象，指的就是因为你输入的这只狗的图片，通过不断去 fine-tuning 整个模型，那么模型可能会渐渐地把 dog 这个概念收敛到这个特定的狗上面去，也就是说模型遗忘了 dog 本身指的是各种各样不同的狗，而最终只是过拟合到这只特定的狗上去。也就是说模型对 dog 这个词含义发生了drift 漂移。
+  2. 
+
 
 
 
