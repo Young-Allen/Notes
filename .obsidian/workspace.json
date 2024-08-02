@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "335631e45bc0d20b",
+        "id": "464bb030b229224e",
         "type": "tabs",
         "children": [
           {
-            "id": "935e5cc5c531fd17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "深度学习/vector image.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a240b8069f87dcb",
+            "id": "5c56f61a8431f9f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a6bc0912c3b89d8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Work.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222,
+    "width": 250,
     "collapsed": true
   },
   "right": {
@@ -226,11 +201,14 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "6a240b8069f87dcb",
+  "active": "5c56f61a8431f9f3",
   "lastOpenFiles": [
-    "深度学习/vector image.md",
-    "Daily Work.md",
+    "().md",
     "深度学习/Style Transfer.md",
+    "深度学习/LoRA-微软-算法深度讲解.pdf",
+    "深度学习/vector image.md",
+    "深度学习/LoRA.md",
+    "Daily Work.md",
     "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
     "Excalidraw/img/Pasted Image 20240726134153_763.png",
     "Excalidraw/img/Pasted Image 20240726134053_734.png",
@@ -249,7 +227,6 @@
     "机器学习/sklearn机器学习pdf/8.0 线性回归大家族.pdf",
     "机器学习/sklearn机器学习pdf/9.1 SVM (下).pdf",
     "机器学习/sklearn机器学习pdf/9.0 SVM (上).pdf",
-    "机器学习/sklearn机器学习pdf/5.0 聚类算法KMeans EDU.pdf",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/x-oss-process=image.png",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.13.svg",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.15.svg",
@@ -271,7 +248,6 @@
     "机器学习/李沐实用机器学习/1. 数据获取.md",
     "机器学习/Machine-Learning/机器学习常见模型.md",
     "2024-03-17.md",
-    "机器学习/Machine-Learning/学习算法的思路.md",
     "前端/服创/img/Pasted image 20230327203659.png",
     "前端/服创/img/Pasted image 20230327203646.png",
     "canvasDraft.canvas"

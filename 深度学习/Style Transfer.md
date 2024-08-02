@@ -66,4 +66,13 @@
 
 ### 5. Implicit Style-Content Separation using B-LoRA（2024）
 - **Abstract**：图像风格化涉及在保持图像的基础对象、结构和概念（内容）的同时，操纵图像的视觉外观和质感（风格）。在本文中，我们介绍了一种名为B-LoRA的方法，该方法利用LoRA（低秩适配）隐式分离单个图像的风格和内容组件，促进各种图像风格化任务。此方法可以从单个图像中提取样式和内容，用于执行各种图像风格化任务，包括图像风格迁移、基于文本的图像风格化、一致风格生成以及风格-内容混合。
-- 
+- **Method**:
+  1. SDXL Architecture Analysis:
+     作者首先对预训练的SDXL模型架构进行分析，**SDXL是一个基于扩散的文本到图像生成模型，其主干网络采用了一个大型UNet架构**，由70个注意力层组成，这些注意力层可以被分成11个transformer块，前两个和最后三个块分别包含4个和6个注意力层，中间6个块各包含10个注意力层，细节如下图所示。
+     ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240802102137.png)
+     SDXL可以接受文本作为条件进行生成，具体来说，给定文本提示 _y_ ，首先使用OpenCLIP ViT-bigG和CLIP ViT-L两个模型对其进行编码，**然后将两个编码拼接起来作为最终的文本条件** **_c_** **，随后将** **_c_** **通过交叉注意力层馈入到网络中**。由于本文的目标是将输入图像 _I_ 的风格和内容解耦为单独的信号再进行处理，**因而需要对SDXL中每个层对生成图像的风格或内容的贡献进行判定**。
+     ![](https://raw.githubusercontent.com/Young-Allen/pic/main/20240802105405.png)
+  2. LoRA-Based Separation with B-LoRA:
+   ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240802105459.png)
+  3. B-LoRA for Image Stylization:
+     ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240802105538.png)
