@@ -87,5 +87,10 @@
      ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240805144242.png)
      这样生成了一组路径$\theta_{LIVE} = \{p1, p2, \ldots, pk\}$。图3(b)显示了在添加8-16条路径的阶段中优化矢量参数的过程。图1显示了更多自动转换的结果。尽管简单，这个流程通常会生成不适合矢量化的图像。
   2. Sampling vector graphics by optimization
-    
+    对于VectorFusion，我们调整了Score Distillation Sampling以支持潜在扩散模型（LDM），如开源的Stable Diffusion。我们初始化一个包含路径集合$\theta = \{p_1, p_2, \ldots, p_k\}$的SVG。每次迭代中，DiffVG渲染一个600×600的图像x。像CLIPDraw一样，我们通过透视变换和随机裁剪来增强图像，得到512×512的图像$x_{aug}​$。然后，我们建议在潜在空间中使用LDM编码器$E_{\phi}$​来计算SDS损失，预测$z = E_{\phi}(x_{aug})$。对于每次优化迭代，我们用随机噪声$z_t = \alpha_tz + \sigma_t\epsilon$对潜在变量进行扩散，用教师模型$\hat{\epsilon}_{\phi}(z_t, y)$去噪，并使用方程4的潜在空间修改来优化SDS损失：
+    ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240805170936.png)
+    由于Stable Diffusion是一个离散时间模型，具有T=1000个时间步长，我们从$t \sim U(50, 950)$中采样。为了提高效率，我们在半精度下运行扩散模型$\hat{\epsilon}_{\theta}$。我们发现，为了数值稳定性，重要的是在全FP32精度下计算编码器的雅可比矩阵$\frac{\partial z}{\partial x_{aug}}​$。项$\frac{\partial x_{aug}}{\partial \theta}$​​通过增强和可微矢量图形光栅化器DiffVG进行自动微分计算。$_{LSDS}$可以看作是$LSDS$的一个适配，其中光栅化器、数据增强和冻结的LDM编码器被视为具有可优化参数$\theta$的单个图像生成器。在优化过程中，我们还通过对自交进行正则化。
+    ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240805171900.png)
+
+
    
