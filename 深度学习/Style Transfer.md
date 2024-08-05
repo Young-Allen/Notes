@@ -79,8 +79,8 @@
 
 ### 6. VectorFusion: Text-to-SVG by Abstracting Pixel-Based Diffusion Models(2023)
 - **Methods**：
-  ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240805145838.png)
   1. **A baseline: text-to-image-to-vector**
+       ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240805145838.png)
      我们首先开发了一个两阶段的流程：从Stable Diffusion生成图像，然后自动将其矢量化。给定文本，我们使用Runge-Kutta求解器在50个采样步骤中以指导比例ω = 7.5（Diffusers库中的默认设置）从Stable Diffusion采样出一个光栅图像。通常，扩散模型生成的图像具有摄影风格和细节，这些很难用少量常量颜色的SVG路径来表达。为了鼓励生成抽象的、平面的矢量风格图像，我们在文本后附加一个后缀：“minimal flat 2d vector icon. lineal color. on a white background. trending on artstation”。这个提示经过定性调整。
      由于生成的样本可能与标题不一致，我们采样K个图像，并根据CLIP ViT-B/16选择与标题最一致的Stable Diffusion样本。
      接下来，我们使用现成的分层图像矢量化程序（LIVE）自动跟踪光栅样本以将其转换为SVG。LIVE通过在高损失区域局部初始化路径，逐步生成相对干净的SVG。为了鼓励路径仅解释图像的单个特征，LIVE通过距离最近路径的距离对L2重建损失进行加权，
