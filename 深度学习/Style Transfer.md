@@ -80,17 +80,20 @@
 ### 6. VectorFusion: Text-to-SVG by Abstracting Pixel-Based Diffusion Models(2023)
 - **Methods**：
   ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240805145838.png)
-  1. A baseline: text-to-image-to-vector
+  1. **A baseline: text-to-image-to-vector**
      我们首先开发了一个两阶段的流程：从Stable Diffusion生成图像，然后自动将其矢量化。给定文本，我们使用Runge-Kutta求解器在50个采样步骤中以指导比例ω = 7.5（Diffusers库中的默认设置）从Stable Diffusion采样出一个光栅图像。通常，扩散模型生成的图像具有摄影风格和细节，这些很难用少量常量颜色的SVG路径来表达。为了鼓励生成抽象的、平面的矢量风格图像，我们在文本后附加一个后缀：“minimal flat 2d vector icon. lineal color. on a white background. trending on artstation”。这个提示经过定性调整。
      由于生成的样本可能与标题不一致，我们采样K个图像，并根据CLIP ViT-B/16选择与标题最一致的Stable Diffusion样本。
      接下来，我们使用现成的分层图像矢量化程序（LIVE）自动跟踪光栅样本以将其转换为SVG。LIVE通过在高损失区域局部初始化路径，逐步生成相对干净的SVG。为了鼓励路径仅解释图像的单个特征，LIVE通过距离最近路径的距离对L2重建损失进行加权，
      ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240805144242.png)
      这样生成了一组路径$\theta_{LIVE} = \{p1, p2, \ldots, pk\}$。图3(b)显示了在添加8-16条路径的阶段中优化矢量参数的过程。图1显示了更多自动转换的结果。尽管简单，这个流程通常会生成不适合矢量化的图像。
-  2. Sampling vector graphics by optimization
+  2. **Sampling vector graphics by optimization**
     对于VectorFusion，我们调整了Score Distillation Sampling以支持潜在扩散模型（LDM），如开源的Stable Diffusion。我们初始化一个包含路径集合$\theta = \{p_1, p_2, \ldots, p_k\}$的SVG。每次迭代中，DiffVG渲染一个600×600的图像x。像CLIPDraw一样，我们通过透视变换和随机裁剪来增强图像，得到512×512的图像$x_{aug}​$。然后，我们建议在潜在空间中使用LDM编码器$E_{\phi}$​来计算SDS损失，预测$z = E_{\phi}(x_{aug})$。对于每次优化迭代，我们用随机噪声$z_t = \alpha_tz + \sigma_t\epsilon$对潜在变量进行扩散，用教师模型$\hat{\epsilon}_{\phi}(z_t, y)$去噪，并使用方程4的潜在空间修改来优化SDS损失：
     ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240805170936.png)
     由于Stable Diffusion是一个离散时间模型，具有T=1000个时间步长，我们从$t \sim U(50, 950)$中采样。为了提高效率，我们在半精度下运行扩散模型$\hat{\epsilon}_{\theta}$。我们发现，为了数值稳定性，重要的是在全FP32精度下计算编码器的雅可比矩阵$\frac{\partial z}{\partial x_{aug}}​$。项$\frac{\partial x_{aug}}{\partial \theta}$​​通过增强和可微矢量图形光栅化器DiffVG进行自动微分计算。$_{LSDS}$可以看作是$LSDS$的一个适配，其中光栅化器、数据增强和冻结的LDM编码器被视为具有可优化参数$\theta$的单个图像生成器。在优化过程中，我们还通过对自交进行正则化。
     ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240805171900.png)
+  3. **Reinitializing paths**
+     在我们最灵活的设置中，为了合成扁平图标化矢量图，我们允许优化路径控制点、填充颜色和SVG背景颜色。在优化过程中，许多路径会学习到低不透明度或缩小到一个小区域，从而未被使用。为了鼓励路径的使用，从而生成更具多样性和细节的图像，我们定期重新初始化不透明度或面积低于阈值的路径。重新初始化的路径将从优化和SVG中移除，并作为随机定位和上色的圆形在现有路径上重新创建。
+   
 
 
    
