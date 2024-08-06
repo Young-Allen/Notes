@@ -105,7 +105,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "e7a1d18f322e6285",
@@ -214,7 +215,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "c8bc627647b58eaa",
+  "active": "1459431483688f16",
   "lastOpenFiles": [
     "深度学习/Style Transfer.md",
     "().md",
