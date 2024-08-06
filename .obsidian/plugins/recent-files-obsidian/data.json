@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vector image",
+      "path": "深度学习/vector image.md"
+    },
+    {
       "basename": "Style Transfer",
       "path": "深度学习/Style Transfer.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "LoRA-微软-算法深度讲解",
       "path": "深度学习/LoRA-微软-算法深度讲解.pdf"
-    },
-    {
-      "basename": "vector image",
-      "path": "深度学习/vector image.md"
     },
     {
       "basename": "Daily Work",
