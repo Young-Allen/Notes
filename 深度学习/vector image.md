@@ -1,6 +1,6 @@
 一般矢量图的生成可以分为两类，
-1)：直接生成矢量图，
-2)：将光栅图进行矢量化来生成矢量图（image vectorization）。
+1)：初始化SVG路径，然后转换为raster并计算损失，反向传播迭代优化SVG生成最后的矢量图；
+2)：将光栅图直接进行矢量化来生成矢量图（image vectorization）。
 其中2）image vectorization：还可以细分为algorithmic-based和machine learning-based两种方法。
 ### 1. Image Vectorization: a Review（2023）
 - 本文是对image vectorization中的Machine Learning-based的方法进行的综述，将Machine Learning-based的一些方法进行实验比较，以下是矢量化的主要对比指标：
@@ -58,8 +58,6 @@
     $L_\mathrm{style}=\lambda_sL_\mathrm{stroke}(s',s)+\lambda_gL_\mathrm{LPIPS}(I,Is)$
     其中，$\lambda_s$ 和 $\lambda_g$是风格保留损失的权重。$I = R(θ)$是渲染结果。LPIPS损失鼓励合成的风格化矢量图形在宏观层面上看起来更相似，例如使两幅图像的整体颜色更接近。实验结果表明，我们生成的矢量图形在微观和宏观层面上都与参考图像的风格相匹配。
  4. **Total Loss Objectives**：
-   
-   
 - **EXPERIMENTS**：
   我们将我们的方法（VP）和最近的一些方法进行了比较。
   1. vector graphics synthesis methods：StyleCLIPDraw、Neural Style Transfer for Vector Graphics、Diffsketcher
@@ -98,3 +96,16 @@
      这些应用展示了我们的可微分光栅化器在矢量图形和光栅图像领域的强大功能，使得复杂的矢量图形生成和编辑成为可能。
 
 ### 6. （LIVE）Towards Layer-wise Image Vectorization(2022)
+- **Methods**：
+  我们首先介绍了一个组件初始化方法，用于选择主要组件作为初始化点。然后，我们运行一个递归流程，逐步根据路径数量调度序列N添加n条路径。对于每一步，我们基于一些新提出的目标函数来优化图形，包括无符号距离引导的焦点（UDF）损失和自交叉（Xing）损失，以获得更好的重建质量和自交互问题的优化结果。除了逐层表示能力外，我们的方法能够用最少数量的贝塞尔路径重建图像，与其他方法相比显著减少SVG文件大小。更多细节将在以下部分中介绍。
+  ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240807151942.png)
+  1. **Component-wise Path Initialization**：
+    一个不好的初始化会导致拓扑提取失败并生成冗余形状。为了克服这一缺陷，我们引入了组件级路径初始化，这大大有助于优化过程。组件级路径初始化的设计原则是根据每个组件的颜色和大小来确定路径的最合适初始位置。一个组件是一个填充颜色均匀的连通区域。正如我们之前提到的，LIVE是一个渐进学习流程。根据前阶段的SVG输出，我们优先考虑下一个学习目标，使组件既大又缺失。
+    我们通过以下步骤来验证这种组件：
+    a) 计算当前渲染的SVG与真实图像之间的L1像素级颜色差异。
+    b) 拒绝小于预设阈值cα的颜色差异。根据经验，本文中cα = 0.1。颜色差异小于cα的像素区域被认为已正确渲染。
+    c) 对于其他区域，将所有有效的颜色差异值大于cα的区域均匀量化为200个bin。量化近似均匀分布；
+    d) 最后，我们根据量化结果识别出最大的连通组件，然后使用其质心作为下一个路径的初始位置。如果我们想添加K条路径，则选择前K个组件作为下一阶段的初始化。注意，对于每条路径，我们考虑将所有控制点均匀初始化在圆上的初始化方法。在向现有图形中添加新路径时，我们的初始化方法始终能够识别出颜色相似的最大缺失组件，并填补主要区域。
+  2. **UDF Loss for Reconstruction：**
+     
+   
