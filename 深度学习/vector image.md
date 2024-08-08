@@ -117,4 +117,11 @@
      
      其中  $i$ 索引 $I$ 中的像素，$c$ 索引 RGB通道。在UDF损失的帮助下，我们能够密切关注路径轮廓，避免内层或远处区域的影响。图2展示了无符号距离引导的焦点损失的学习过程。为了在我们的LIVE框架中支持多条路径，我们可以通过对所有路径的 $d'_i$ 取平均值来轻松扩展公式2。 
   3. **Xing Loss for Self-Interaction Problem：**
-     
+     我们注意到在优化过程中，一些贝塞尔路径可能会发生自交，导致有害的伪影和不适当的拓扑结构。
+     ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240808095930.png)
+     假设本文中的所有贝塞尔曲线都是三阶的，通过分析许多优化后的形状，我们发现自交路径总是会与其控制点的线相交，反之亦然。这表明，与其优化贝塞尔路径，不如在控制点上添加约束。假设三次贝塞尔路径的控制点依次为A、B、C和D，我们添加一个约束，即 $\overrightarrow{AB}$ 和 $\overrightarrow{CD}$ 之间的角度（图中的 $\theta$）应大于180°。我们首先确定 $\angle ABC$ 的特征（锐角或钝角）作为D1，并通过以下公式确定 $\theta$ 的正弦值D2：
+     ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240808100207.png)其中 $\mathbb{I}(\cdot)$ 是符号函数，当D1 > 0时返回1，否则返回0，$\times$ 是向量积，返回一个实值。然后我们将Xing损失公式化为：
+     ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240808101344.png)
+     公式4的基本思想是我们仅在 $\theta < 180^\circ$ 时进行优化（通过 $\text{ReLU}(\pm D2)$ 实现）。第一项针对D1 = 1的情况设计，第二项针对D1 = 0的情况设计。结合UDF损失和Xing损失，我们的最终损失函数L为：
+     ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240808101457.png)
+
