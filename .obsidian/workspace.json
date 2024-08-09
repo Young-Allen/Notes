@@ -110,7 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "深度学习/Style Transfer.md"
+              }
             }
           }
         ],
@@ -149,6 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "深度学习/Style Transfer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
