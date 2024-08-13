@@ -25,24 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/vue.md",
+                "file": "深度学习/LLM-Book.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "84974b6714a87d9b",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://yarn.bootcss.com/docs/install/#windows-stable"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,8 +104,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "e7a1d18f322e6285",
@@ -135,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250
+    "width": 250,
+    "collapsed": true
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -224,11 +213,12 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "84974b6714a87d9b",
+  "active": "5c56f61a8431f9f3",
   "lastOpenFiles": [
+    "深度学习/LLM-Book.md",
+    "深度学习/Style Transfer.md",
     "前端/Vue/vue.md",
     "深度学习/vector image.md",
-    "深度学习/Style Transfer.md",
     "().md",
     "深度学习/LoRA-微软-算法深度讲解.pdf",
     "深度学习/LoRA.md",
@@ -270,7 +260,6 @@
     "机器学习/李沐实用机器学习/3.数据探索性分析.md",
     "机器学习/李沐实用机器学习/2. 数据标注.md",
     "机器学习/李沐实用机器学习/1. 数据获取.md",
-    "机器学习/Machine-Learning/机器学习常见模型.md",
     "前端/服创/img/Pasted image 20230327203659.png",
     "前端/服创/img/Pasted image 20230327203646.png",
     "canvasDraft.canvas"
