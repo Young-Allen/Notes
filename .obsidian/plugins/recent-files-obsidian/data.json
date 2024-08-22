@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "vue",
+      "path": "前端/Vue/vue.md"
+    },
+    {
       "basename": "Style Transfer",
       "path": "深度学习/Style Transfer.md"
     },
     {
       "basename": "LLM-Book",
       "path": "深度学习/LLM-Book.md"
-    },
-    {
-      "basename": "vue",
-      "path": "前端/Vue/vue.md"
     },
     {
       "basename": "vector image",

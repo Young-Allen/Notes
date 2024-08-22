@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "深度学习/Style Transfer.md",
-                "mode": "source",
+                "file": "前端/Vue/vue.md",
+                "mode": "preview",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "8bf9313ebc765331",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://router.vuejs.org/zh/guide/essentials/dynamic-matching.html"
               }
             }
           }
@@ -88,11 +98,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/Style Transfer.md"
+                "file": "前端/Vue/vue.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "e7a1d18f322e6285",
@@ -111,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250,
-    "collapsed": true
+    "width": 250
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -128,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/Style Transfer.md",
+                "file": "前端/Vue/vue.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,9 +213,9 @@
   },
   "active": "5c56f61a8431f9f3",
   "lastOpenFiles": [
-    "深度学习/LLM-Book.md",
-    "深度学习/Style Transfer.md",
     "前端/Vue/vue.md",
+    "深度学习/Style Transfer.md",
+    "深度学习/LLM-Book.md",
     "深度学习/vector image.md",
     "().md",
     "深度学习/LoRA-微软-算法深度讲解.pdf",
