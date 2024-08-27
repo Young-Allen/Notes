@@ -5,8 +5,12 @@
       "path": "前端/Vue/vue.md"
     },
     {
-      "basename": "阿萨",
-      "path": "阿萨.md"
+      "basename": "前端学习路线",
+      "path": "前端/前端学习路线.md"
+    },
+    {
+      "basename": "Daily Work",
+      "path": "Daily Work.md"
     },
     {
       "basename": "vector image",
@@ -27,10 +31,6 @@
     {
       "basename": "LoRA-微软-算法深度讲解",
       "path": "深度学习/LoRA-微软-算法深度讲解.pdf"
-    },
-    {
-      "basename": "Daily Work",
-      "path": "Daily Work.md"
     },
     {
       "basename": "Drawing 2024-07-22 09.34.33.excalidraw",
