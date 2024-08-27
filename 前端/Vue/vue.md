@@ -14356,6 +14356,17 @@ async test () {
 
 async / await  用同步的方式 去写异步
 
+# 第十二章 VUE3 新方法
+## API风格
+官网解释：[API风格](https://cn.vuejs.org/guide/introduction.html)
+[响应式基础](https://cn.vuejs.org/guide/essentials/reactivity-fundamentals.html)
+1. 选项式API (Options API)
+   使用选项式 API，我们可以用包含多个选项的对象来描述组件的逻辑，例如 `data`、`methods` 和 `mounted`。选项所定义的属性都会暴露在函数内部的 `this` 上，它会指向当前的组件实例。就是vue比较常用的方法。
+2. 组合式API
+   通过组合式 API，我们可以使用导入的 API 函数来描述组件逻辑。在单文件组件中，组合式 API 通常会与 <script setup> 搭配使用。
+
+
+
 # 附录(list的各种方法)
 
 ![image-20221028235155217](https://gitee.com/XXXTENTWXD/pic/raw/master/images/image-20221028235155217.png)

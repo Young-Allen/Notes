@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "000a2b2d9e080924",
+        "id": "f1da885df3325b8e",
         "type": "tabs",
         "children": [
           {
-            "id": "29576ea2309a390e",
+            "id": "fa0c38b7196aacdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "深度学习/vector image.md",
+                "file": "前端/Vue/vue.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/vector image.md"
+                "file": "前端/Vue/vue.md"
               }
             }
           }
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250,
-    "collapsed": true
+    "width": 250
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -129,8 +128,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/vector image.md",
-                "collapseAll": true,
+                "file": "前端/Vue/vue.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -202,12 +201,13 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "1459431483688f16",
+  "active": "fa0c38b7196aacdf",
   "lastOpenFiles": [
+    "阿萨.md",
     "前端/Vue/vue.md",
+    "深度学习/vector image.md",
     "深度学习/Style Transfer.md",
     "深度学习/LLM-Book.md",
-    "深度学习/vector image.md",
     "().md",
     "深度学习/LoRA-微软-算法深度讲解.pdf",
     "深度学习/LoRA.md",
@@ -248,7 +248,6 @@
     "机器学习/Machine-Learning/5无监督学习.md",
     "机器学习/李沐实用机器学习/3.数据探索性分析.md",
     "机器学习/李沐实用机器学习/2. 数据标注.md",
-    "机器学习/李沐实用机器学习/1. 数据获取.md",
     "前端/服创/img/Pasted image 20230327203659.png",
     "前端/服创/img/Pasted image 20230327203646.png",
     "canvasDraft.canvas"

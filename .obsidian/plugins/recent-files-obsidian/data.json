@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "vector image",
-      "path": "深度学习/vector image.md"
-    },
-    {
       "basename": "vue",
       "path": "前端/Vue/vue.md"
+    },
+    {
+      "basename": "阿萨",
+      "path": "阿萨.md"
+    },
+    {
+      "basename": "vector image",
+      "path": "深度学习/vector image.md"
     },
     {
       "basename": "Style Transfer",
@@ -195,10 +199,6 @@
     {
       "basename": "约数",
       "path": "算法/数论/约数.pdf"
-    },
-    {
-      "basename": "最小生成树和二分图",
-      "path": "算法/搜索与图论/最小生成树和二分图.pdf"
     }
   ],
   "omittedPaths": [],
