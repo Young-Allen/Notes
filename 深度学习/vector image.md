@@ -133,32 +133,19 @@
 
 
 ### 7. DeepSVG: A Hierarchical Generative Network for Vector Graphics Animation（2020）
-- **Methods**：
-  1. SVG Dataset and representation
+ - **SVG Dataset and representation**
      从SVG-icon8中引入了新的数据集，该数据集包含56个不同类别的100000个高质量图标。
-  2. Data structure
+-  **Data structure**
     ![](https://raw.githubusercontent.com/Young-Allen/pic/main/20240828103859.png)
-  3. SVG Embedding
+- **SVG Embedding**
      ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240828105534.png)
      ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240828115848.png)
-     下面的例子中坐标 (0.68,0.34)会被量化为 (6,3)
-    
-```
-import numpy as np
-# 假设原始坐标
-x, y = 0.68, 0.34
+     如坐标 (0.68,0.34)，定义量化级别为10，则会被量化为 (6,3)
+ 
+- **Hierarchical Generative Network：**
+  ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240828134803.png)
 
-# 定义量化级别
-quantization_level = 10
-
-# 量化坐标
-x_quantized = int(np.floor(x * quantization_level))
-y_quantized = int(np.floor(y * quantization_level))
-
-print(f"原始坐标: ({x}, {y})")
-print(f"量化后坐标: ({x_quantized}, {y_quantized})")
-```
-
+- 
 
 
 

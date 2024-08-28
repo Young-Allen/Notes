@@ -5,12 +5,8 @@
       "path": "深度学习/vector image.md"
     },
     {
-      "basename": "vue",
-      "path": "前端/Vue/vue.md"
-    },
-    {
-      "basename": "前端学习路线",
-      "path": "前端/前端学习路线.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "Daily Work",
@@ -25,12 +21,16 @@
       "path": "深度学习/LLM-Book.md"
     },
     {
-      "basename": "()",
-      "path": "().md"
-    },
-    {
       "basename": "LoRA-微软-算法深度讲解",
       "path": "深度学习/LoRA-微软-算法深度讲解.pdf"
+    },
+    {
+      "basename": "vue",
+      "path": "前端/Vue/vue.md"
+    },
+    {
+      "basename": "前端学习路线",
+      "path": "前端/前端学习路线.md"
     },
     {
       "basename": "Drawing 2024-07-22 09.34.33.excalidraw",
