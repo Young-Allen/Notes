@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vector image",
+      "path": "深度学习/vector image.md"
+    },
+    {
       "basename": "vue",
       "path": "前端/Vue/vue.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Daily Work",
       "path": "Daily Work.md"
-    },
-    {
-      "basename": "vector image",
-      "path": "深度学习/vector image.md"
     },
     {
       "basename": "Style Transfer",

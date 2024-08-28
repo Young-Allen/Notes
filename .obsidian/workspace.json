@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/vue.md",
+                "file": "深度学习/vector image.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,12 +88,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/vue.md"
+                "file": "深度学习/vector image.md"
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "e7a1d18f322e6285",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/vue.md",
+                "file": "深度学习/vector image.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,11 +201,11 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "1459431483688f16",
+  "active": "fa0c38b7196aacdf",
   "lastOpenFiles": [
+    "前端/Vue/vue.md",
     "前端/前端学习路线.md",
     "Daily Work.md",
-    "前端/Vue/vue.md",
     "阿萨.md",
     "深度学习/vector image.md",
     "深度学习/Style Transfer.md",
