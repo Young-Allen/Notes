@@ -138,4 +138,7 @@
      从SVG-icon8中引入了新的数据集，该数据集包含56个不同类别的100000个高质量图标。
   2. Data structure
     ![](https://raw.githubusercontent.com/Young-Allen/pic/main/20240828103859.png)
+  3. SVG Embedding
+     ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240828105534.png)
+
 
