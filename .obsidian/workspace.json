@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250
+    "width": 250,
+    "collapsed": true
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -201,7 +202,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "1459431483688f16",
+  "active": "fa0c38b7196aacdf",
   "lastOpenFiles": [
     "README.md",
     "Daily Work.md",

@@ -149,6 +149,8 @@
 
 
 ### 8. IconShop: Text-Guided Vector Icon Synthesis with Autoregressive Transformers（2023）
+- **SVG Representation and Tokenization：**
+  ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240829143325.png)
 
 
 
