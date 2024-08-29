@@ -150,8 +150,13 @@
 
 ### 8. IconShop: Text-Guided Vector Icon Synthesis with Autoregressive Transformers（2023）
 - **SVG Representation and Tokenization：**
-  ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240829143325.png)
+  ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240829143325.png)![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240829144946.png)
+    IconShop 的系统图展示了如何对 SVG 图标进行标记化处理和概率建模。以时钟图标为例，它包含两条路径，每条路径由三种基本命令组成（参考表 1）。对于路径 1，包含一个 M（Move To）命令和四条 Bézier 曲线；对于路径 2，包含一个 M 命令和两条线段。
+    为了对这些路径进行标记化处理，我们首先将这两条路径的命令连接起来，形成一个单一的命令序列。然后，我们将每个命令的二维位置参数 (x, y) 使用公式 x × w + y 转换为一维参数，其中 w 是默认的 SVG 图像宽度。接下来，我们使用预训练的文本编码器对文本“clock, time”进行标记化和嵌入处理，文本的起始和结束位置分别由 < CLS > 和 < SEP > 标记。
+    随后，我们将嵌入的文本和 SVG 序列连接起来，并在序列的开头添加一个 < SOS > 标记。这个连接后的序列被发送到自回归 transformer 中进行联合概率建模，从而生成符合输入描述的 SVG 图标。
 
 
+- **Masking Scheme：**
+  
 
 
