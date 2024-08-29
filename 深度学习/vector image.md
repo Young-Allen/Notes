@@ -157,6 +157,10 @@
 
 
 - **Masking Scheme：**
-  
+  **自回归模型对于图片编辑的影响**：自回归模型在从零开始生成标记序列方面表现出色，但它们仅限于以因果方向（即从左到右）生成序列。这一限制在需要基于双向上下文填充缺失内容的任务（如图标编辑）中阻碍了 SVG 合成的性能。为扩展自回归模型执行中间填充任务的能力，研究者们开发了若干方法，通过对训练数据进行调整，而无需修改模型架构。
+  ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240829151053.png)
+
+- **Model Architecture：**
+  ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20240829151635.png)
 
 
