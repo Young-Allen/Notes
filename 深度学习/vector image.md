@@ -85,7 +85,7 @@
      在我们最灵活的设置中，为了合成扁平图标化矢量图，我们允许优化路径控制点、填充颜色和SVG背景颜色。在优化过程中，许多路径会学习到低不透明度或缩小到一个小区域，从而未被使用。为了鼓励路径的使用，从而生成更具多样性和细节的图像，我们定期重新初始化不透明度或面积低于阈值的路径。重新初始化的路径将从优化和SVG中移除，并作为随机定位和上色的圆形在现有路径上重新创建。
    
 
-### 5. Differentiable Vector Graphics Rasterization for Editing and Learning（2020）
+### 5. （Diff VG）Differentiable Vector Graphics Rasterization for Editing and Learning（2020）
 - **Background：**
   我们引入了一种可微分的光栅化器，它连接了矢量图形和光栅图像领域，使得基于光栅的损失函数、优化程序和机器学习技术能够编辑和生成矢量内容。我们观察到，在像素预滤波后，矢量图形的光栅化是可微分的。我们的可微分光栅化器提供了两种预滤波选项：一种是解析预滤波技术，另一种是多重采样抗锯齿技术。解析预滤波变体更快，但可能会出现诸如合并等伪影。多重采样变体仍然高效，并且能够渲染高质量图像，同时计算每个像素相对于曲线参数的无偏梯度。
   我们展示了我们的光栅化器启用的新应用，包括：
@@ -147,6 +147,8 @@
 
 - 
 
+
+### 8. IconShop: Text-Guided Vector Icon Synthesis with Autoregressive Transformers（2023）
 
 
 
