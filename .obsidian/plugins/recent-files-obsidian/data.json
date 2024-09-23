@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Limitations &",
+      "path": "深度学习/Limitations &.md"
+    },
+    {
       "basename": "vector image",
       "path": "深度学习/vector image.md"
+    },
+    {
+      "basename": "Style Transfer",
+      "path": "深度学习/Style Transfer.md"
     },
     {
       "basename": "README",
@@ -11,10 +19,6 @@
     {
       "basename": "Daily Work",
       "path": "Daily Work.md"
-    },
-    {
-      "basename": "Style Transfer",
-      "path": "深度学习/Style Transfer.md"
     },
     {
       "basename": "LLM-Book",
@@ -195,10 +199,6 @@
     {
       "basename": "质数",
       "path": "算法/数论/质数.pdf"
-    },
-    {
-      "basename": "约数",
-      "path": "算法/数论/约数.pdf"
     }
   ],
   "omittedPaths": [],
