@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Image Abstraction",
+      "path": "Image Abstraction/Image Abstraction.md"
+    },
+    {
       "basename": "Limitations &",
       "path": "深度学习/Limitations &.md"
     },
     {
-      "basename": "vector image",
-      "path": "深度学习/vector image.md"
-    },
-    {
       "basename": "Style Transfer",
       "path": "深度学习/Style Transfer.md"
+    },
+    {
+      "basename": "vector image",
+      "path": "深度学习/vector image.md"
     },
     {
       "basename": "README",
@@ -191,14 +195,6 @@
     {
       "basename": "拓扑排序",
       "path": "算法/搜索与图论/拓扑排序.md"
-    },
-    {
-      "basename": "求图的连通块问题",
-      "path": "算法/搜索与图论/求图的连通块问题.pdf"
-    },
-    {
-      "basename": "质数",
-      "path": "算法/数论/质数.pdf"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "深度学习/Limitations &.md",
+                "file": "Image Abstraction/Image Abstraction.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "深度学习/Limitations &.md"
+                "file": "Image Abstraction/Image Abstraction.md"
               }
             }
           }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "深度学习/Limitations &.md",
+                "file": "Image Abstraction/Image Abstraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,11 +201,14 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "fa0c38b7196aacdf",
+  "active": "6d1c5b88e8f3f3c0",
   "lastOpenFiles": [
-    "深度学习/vector image.md",
+    "Image Abstraction",
+    "未命名.canvas",
+    "Image Abstraction/Image Abstraction.md",
     "深度学习/Limitations &.md",
     "深度学习/Style Transfer.md",
+    "深度学习/vector image.md",
     "README.md",
     "Daily Work.md",
     "().md",
@@ -223,7 +226,6 @@
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "Excalidraw/Drawing 2024-07-22 09.31.56.excalidraw.md",
     "Excalidraw/Drawing 2024-07-22 09.33.55.excalidraw.md",
-    "未命名.canvas",
     "深度学习/1.PyTorch：张量简介及创建.md",
     "深度学习",
     "机器学习/sklearn机器学习pdf/3.0 数据预处理与特征工程.pdf",
@@ -246,8 +248,6 @@
     "机器学习/Machine-Learning/4树模型.md",
     "机器学习/Machine-Learning-Andrew-Ng-2022-master/模型评估指标.md",
     "机器学习/Machine-Learning/关于大模型的一些思考.md",
-    "机器学习/Machine-Learning/代价函数不是凸函数吗，为什么还会有局部最优的情况.md",
-    "机器学习/Machine-Learning/代价函数、优化函数-Bing.md",
     "前端/服创/img/Pasted image 20230327203659.png",
     "前端/服创/img/Pasted image 20230327203646.png",
     "canvasDraft.canvas"
