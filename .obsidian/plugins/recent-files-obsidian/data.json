@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Comparing Flux.1 and Stable Diffusion",
+      "path": "深度学习/Comparing Flux.1 and Stable Diffusion.md"
+    },
+    {
       "basename": "Image Abstraction",
       "path": "Image Abstraction/Image Abstraction.md"
+    },
+    {
+      "basename": "Drawing 2024-07-22 09.34.33.excalidraw",
+      "path": "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md"
     },
     {
       "basename": "Limitations &",
@@ -39,10 +47,6 @@
     {
       "basename": "前端学习路线",
       "path": "前端/前端学习路线.md"
-    },
-    {
-      "basename": "Drawing 2024-07-22 09.34.33.excalidraw",
-      "path": "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md"
     },
     {
       "basename": "0监督学习",
