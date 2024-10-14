@@ -29,10 +29,6 @@
       "path": "README.md"
     },
     {
-      "basename": "Daily Work",
-      "path": "Daily Work.md"
-    },
-    {
       "basename": "LLM-Book",
       "path": "深度学习/LLM-Book.md"
     },
