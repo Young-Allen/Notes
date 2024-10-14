@@ -20,11 +20,12 @@ SDXL VAE模型中有三个基础组件：
 
 其中OpenCLIP ViT-bigG是一个只由Transformer模块组成的模型，一共有32个CLIPEncoder模块，下图是Stable Diffusion XL OpenCLIP ViT-bigG的结构图：
 
-![](https://pic2.zhimg.com/80/v2-aff56551a3b21037c6fede266abb5c15_720w.webp)
+![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241014145013.png)
 
 OpenAI CLIP ViT-L/14同样是一个只由Transformer模块组成的模型，一共有12个CLIPEncoder模块，下图是**SDXL OpenAI CLIP ViT-L/14的完整结构图**：
 
-![](https://pic4.zhimg.com/80/v2-221db19b994f0f88d89051dbe51935bb_720w.webp)
+![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241014145127.png)
+
 ## U-Net
 **Stable Diffusion XL Base U-Net包含十四个基本模块：**
 
