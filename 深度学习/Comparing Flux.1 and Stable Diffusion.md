@@ -68,3 +68,6 @@ SDXL Refiner模型和SDXL Base模型在结构上的异同：
 扩散模型 LDM 会使用一个神经网络模型来对噪声图像去噪。为了实现文生图，该去噪网络会以输入文本为额外约束。相比之前多数扩散模型，SD3 的主要改进是把去噪模型的结构从 **U-Net 变为了 DiT**（Diffusion Transformer ）。DiT的论文为：[Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2403.03206)
 
 
+
+# FLUX.1架构
+在Black Forest Labs发布的FLUX.1的介绍中，提到：“所有公开的FLUX.1模型基于[multimodal](https://arxiv.org/abs/2403.03206) 和 [parallel](https://arxiv.org/abs/2302.05442) [diffusion transformer](https://arxiv.org/abs/2212.09748) blocks 的混合架构，并扩展至120亿参数。我们在现有的最先进扩散模型基础上进行了改进，基于 [flow matching](https://arxiv.org/abs/2210.02747) 方法，这是一种通用且概念简单的生成模型训练方法，其中扩散模型是其特例之一。此外，我们通过集成[rotary positional embeddings](https://arxiv.org/abs/2104.09864) 和 [parallel attention layers](https://arxiv.org/abs/2302.05442) 提高了模型性能并改进了硬件效率。”
