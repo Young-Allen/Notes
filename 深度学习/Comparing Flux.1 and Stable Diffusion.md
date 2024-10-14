@@ -43,6 +43,7 @@ OpenAI CLIP ViT-L/14同样是一个只由Transformer模块组成的模型，一�
 13. **CrossAttnUpBlock_X_K模块**：是Stable Diffusion XL Base U-Net中Decoder部分的主要模块，由K个（ResNetBlock模块+SDXL_Spatial Transformer_X模块）+一个UpSample模块组成。
 14. **CrossAttnMidBlock模块**：是Stable Diffusion XL Base U-Net中Encoder和ecoder连接的部分，由ResNetBlock+SDXL_Spatial Transformer_10**+ResNetBlock组成。
 
-![](https://pic3.zhimg.com/v2-03cf776c6281ff727e157e6088dbb394_r.jpg)
+![sdxl.png](https://raw.githubusercontent.com/Young-Allen/pic/main/sdxl.png)
+
 
 ## Refiner模型
