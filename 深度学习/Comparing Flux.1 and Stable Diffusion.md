@@ -26,3 +26,7 @@ OpenAI CLIP ViT-L/14同样是一个只由Transformer模块组成的模型，一�
 
 ![](https://pic4.zhimg.com/80/v2-221db19b994f0f88d89051dbe51935bb_720w.webp)
 ## U-Net
+**Stable Diffusion XL Base U-Net包含十四个基本模块：**
+
+![](https://pic3.zhimg.com/v2-03cf776c6281ff727e157e6088dbb394_r.jpg)
+
