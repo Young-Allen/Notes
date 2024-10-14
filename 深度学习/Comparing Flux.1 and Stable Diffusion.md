@@ -19,7 +19,10 @@ SDXL VAE模型中有三个基础组件：
 **Stable Diffusion XL与之前的系列相比使用了两个CLIP Text Encoder，分别是OpenCLIP ViT-bigG（694M）和OpenAI CLIP ViT-L/14（123.65M），从而大大增强了Stable Diffusion XL对文本的提取和理解能力，同时提高了输入文本和生成图片的一致性.**
 
 其中OpenCLIP ViT-bigG是一个只由Transformer模块组成的模型，一共有32个CLIPEncoder模块，下图是Stable Diffusion XL OpenCLIP ViT-bigG的结构图：
+
 ![](https://pic2.zhimg.com/80/v2-aff56551a3b21037c6fede266abb5c15_720w.webp)
+
 OpenAI CLIP ViT-L/14同样是一个只由Transformer模块组成的模型，一共有12个CLIPEncoder模块，下图是**SDXL OpenAI CLIP ViT-L/14的完整结构图**：
+
 ![](https://pic4.zhimg.com/80/v2-221db19b994f0f88d89051dbe51935bb_720w.webp)
 ## U-Net
