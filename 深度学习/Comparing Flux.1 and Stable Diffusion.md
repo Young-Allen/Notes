@@ -8,7 +8,7 @@ Stable Diffusion XL是一个**二阶段的级联扩散模型（Latent Diffusion 
 ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241012164032.png)
 ## VAE（**KL-f8**）
 SDXL VAE模型中有三个基础组件：
-1. GSC组件：GroupNorm+SiLU+[Conv](https://zhida.zhihu.com/search?content_id=231112916&content_type=Article&match_order=1&q=Conv&zhida_source=entity)
+1. GSC组件：GroupNorm+SiLU+Conv
 2. Downsample组件：Padding+Conv
 3. Upsample组件：Interpolate+Conv
 
@@ -47,3 +47,19 @@ OpenAI CLIP ViT-L/14同样是一个只由Transformer模块组成的模型，一�
 
 
 ## Refiner模型
+由于已经有U-Net（Base）模型生成了图像的Latent特征，所以**Refiner模型的主要工作是在Latent特征进行小噪声去除和细节质量提升**。
+
+SDXL Refiner模型和SDXL Base模型在结构上的异同：
+
+1. SDXL Base的Encoder和Decoder结构都采用4个stage，而SDXL Base设计的是3个stage。
+2. SDXL Refiner和SDXL Base一样，在第一个stage中没有使用Attention模块。
+3. 在经过第一个卷积后，SDXL Refiner设置初始网络特征维度为384，而SDXL Base 采用的是320。
+4. SDXL Refiner的Attention模块中SDXL_Spatial Transformer结构数量均设置为4。
+5. SDXL Refiner的参数量为2.3B，比起SDXL Base的2.6B参数量略小一些。
+
+
+
+![refiner.png](https://raw.githubusercontent.com/Young-Allen/pic/main/refiner.png)
+
+
+# SD3架构
