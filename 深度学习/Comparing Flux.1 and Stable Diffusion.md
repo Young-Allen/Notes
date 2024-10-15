@@ -81,17 +81,31 @@ SD3相比之前的SD一个最大的变化是采用 [Rectified Flow](https://arxi
 
 ## Multimodal Diffusion Transformer(MM-DiT)
 SD3 的去噪模型是一个 Diffusion Transformer (DiT)。如果去噪模型只有带噪图像这一种输入的话，DiT 则会是一个结构非常简单的模型，和标准 ViT 一样：图像过图块化层 (Patching) 并与位置编码相加，得到序列化的数据。这些数据会像标准 Transformer 一样，经过若干个子模块，再过反图块层得到模型输出。DiT 的每个子模块 DiT-Block 和标准 Transformer 块一样，由 LayerNorm, Self-Attention, 一对一线性层 (Pointwise Feedforward, FF) 等模块构成。
-由于文本和图像嵌入在概念上完全不同，因此对这两种模态使用两组独立的权重。如下图所示，这相当于每种模态都有两个独立的转换器，但是将两种模态的序列连接起来进行注意力操作，这样两种表示都可以在自己的空间中工作，同时考虑另一种表示。
+
+![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241015110635.png)
+
+然而，扩散模型中的去噪网络一定得支持带约束生成。这是因为扩散模型约束于去噪时刻 t。此外，作为文生图模型，SD3 还得支持文本约束。DiT 及本文的 MM-DiT 把模型设计的重点都放在了处理额外约束上。
+
+我们先看一下模块是怎么处理较简单的时刻约束的。此处，如下图所示，SD3 的模块保留了 DiT 的设计，用自适应 LayerNorm (Adaptive LayerNorm, AdaLN) 来引入额外约束。具体来说，过了 LayerNorm 后，数据的均值、方差会根据时刻约束做调整。另外，过完 Attention 层或 FF 层后，数据也会乘上一个和约束相关的系数。
+
+![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241015110701.png)
+
+我们再来看文本约束的处理。文本约束以两种方式输入进模型：与时刻编码拼接、在注意力层中融合。具体数据关联细节可参见下图。如图所示，为了提高 SD3 的文本理解能力，描述文本 (“Caption”) 经由三种编码器编码，得到两组数据。一组较短的数据会经由 MLP 与文本编码加到一起；另一组数据会经过线性层，输入进 Transformer 的主模块中。
+
+![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241015110842.png)
+
+SD3 的 DiT 的子模块结构图如下所示。我们可以分几部分来看它。先看时刻编码 y 的那些分支。和标准 DiT 子模块一样，y 通过修改 LayerNorm 后数据的均值、方差及部分层后的数据大小来实现约束。再看输入的图像编码 x 和文本编码 c。二者以相同的方式做了 DiT 里的 LayerNorm, FF 等操作。不过，相比此前多数基于 DiT 的模型，此模块用了一种特殊的融合注意力层。具体来说，在过注意力层之前，x 和 c 对应的 Q,K,V 会分别拼接到一起，而不是像之前的模型一样，Q 来自图像，K,V 来自文本。过完注意力层，输出的数据会再次拆开，回到原本的独立分支里。由于 Transformer 同时处理了文本、图像的多模态信息，所以作者将模型取名为 MM-DiT (Multimodal DiT)。
 
 ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241015104700.png)
 
 
+## 比例可变的位置编码
 
 # FLUX.1架构
 ## 基础架构图
 在Black Forest Labs发布的FLUX.1的介绍中，提到：“所有公开的FLUX.1模型基于[multimodal](https://arxiv.org/abs/2403.03206) 和 [parallel](https://arxiv.org/abs/2302.05442) [diffusion transformer](https://arxiv.org/abs/2212.09748) blocks 的混合架构，并扩展至120亿参数。我们在现有的最先进扩散模型基础上进行了改进，基于 [flow matching](https://arxiv.org/abs/2210.02747) 方法，这是一种通用且概念简单的生成模型训练方法，其中扩散模型是其特例之一。此外，我们通过集成[rotary positional embeddings](https://arxiv.org/abs/2104.09864) 和 [parallel attention layers](https://arxiv.org/abs/2302.05442) 提高了模型性能并改进了硬件效率。”
-FLUX.1可以看作是SD3的续作，在一定程度上使用的SD3的Flow Matching的思想，并对SD3的MM-DiT做了进一步的改进。因为关于FLUX.1的相关技术报告还未发布，所以FLUX.1的内部详细信息是总计网上的内容得出，下面是来自于网上的FLUX.1的架构图：
+FLUX.1可以看作是SD3的续作，在一定程度上使用的SD3的Flow Matching的思想，并对SD3的MM-DiT做了进一步的改进。因为关于FLUX.1的相关技术报告还未发布，所以FLUX.1的内部详细信息是总结网上的内容得出，下面是来自于网上的FLUX.1架构图：
 
 ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241015105320.png)
 
-![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241015105401.png)
+![image.png](https://preview.redd.it/fluxs-architecture-diagram-dont-think-theres-a-paper-so-had-v0-7n3ix8do9vgd1.png?width=1080&crop=smart&auto=webp&s=e183bc880d354a40d3a18156c10d7291a4942569)
