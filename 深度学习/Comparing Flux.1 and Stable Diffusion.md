@@ -107,3 +107,14 @@ FLUX.1可以看作是SD3的续作，在一定程度上使用的SD3的Flow Matchi
 ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241015105320.png)
 
 ![image.png](https://preview.redd.it/fluxs-architecture-diagram-dont-think-theres-a-paper-so-had-v0-7n3ix8do9vgd1.png?width=1080&crop=smart&auto=webp&s=e183bc880d354a40d3a18156c10d7291a4942569)
+
+## VAE模型
+SD3相比之前版本的SD一个重要改进就是采用了[特征通道](https://zhida.zhihu.com/search?content_id=248245529&content_type=Article&match_order=1&q=%E7%89%B9%E5%BE%81%E9%80%9A%E9%81%93&zhida_source=entity)更多的VAE，特征维度从原来的4增加到16，可以减少VAE重建所导致的畸变。Flux和SD3一样也采用16通道的VAE，但Flux的VAE并不是直接用SD3的VAE，而是重新训练了，因为模型结构虽然一样，但是参数变了。
+
+## 文本编码器
+SD3采用三个文本编码器，分别是Open[CLIP](https://zhida.zhihu.com/search?content_id=248245529&content_type=Article&match_order=1&q=CLIP&zhida_source=entity)-ViT/G，CLIP-ViT/L以及T5-xxl，其中两个CLIP的pooling特征拼接在一起加在time embedding上，而且两个CLIP的[text embedding](https://zhida.zhihu.com/search?content_id=248245529&content_type=Article&match_order=1&q=text+embedding&zhida_source=entity)拼接在一起，并和T5-xxl的text embedding沿着[token维度](https://zhida.zhihu.com/search?content_id=248245529&content_type=Article&match_order=1&q=token%E7%BB%B4%E5%BA%A6&zhida_source=entity)拼接在一起送入MMDiT。但是Flux只使用CLIP-ViT/L和T5-xxl两个文本编码器，CLIP-ViT/L的pooling特征加在time embedding上，而T5-xxl的text embedding直接送入MMDiT输入中。所以Flux更依赖T5-xxl，而SD3其实CLIP特征还有较大的作用，比如SD3可以去掉T5只用CLIP来生成图像。
+
+## MM-DiT 和 Single DiT
+**MMDiT**，Flux相比SD3有一些变动，原来的MMDiT是文本和图像是独立两个分支，只用在 attention 的时候共享计算，而Flux只在前面的19层采用这样的MMDiT block，后面的38层直接采用普通的 [DiT block](https://arxiv.org/abs/2212.09748) ，文本和图像拼接在一起共用一套参数。直观上看，前面的MMDiT block可以实现两个模态融合了，后面就不需要这样做了，这样就可以把节省的参数用来增加模型的深度。最终Flux的模型大小是12B，比8B的SD3还大40%。
+
+![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241015113931.png)
