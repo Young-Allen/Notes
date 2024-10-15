@@ -72,7 +72,7 @@ SDXL Refiner模型和SDXL Base模型在结构上的异同：
 ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241014204535.png)
 
 ## Flow Matching
-
+SD3相比之前的SD一个最大的变化是采用 [Rectified Flow](https://arxiv.org/abs/2210.02747) 来作为生成模型。**Flow Matching（流匹配）** 是一种用来生成图像或数据的新方法，其核心思想是通过学习如何把一个简单的分布（如随机噪声）**逐渐变成**你想要的目标分布（如真实图片）。我们可以把这个过程想象成“引导水流”，让它从一个地方自然地流向另一个地方。
 
 
 
