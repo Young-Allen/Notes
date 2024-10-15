@@ -71,7 +71,7 @@ SDXL Refiner模型和SDXL Base模型在结构上的异同：
 
 在方法设计上，主要提出了以下的改进：
 - 首次在大型文生图模型上使用了整流模型（Rectified Flow）。
-- 用新的Diffusion Transformer（DiT）替换U-Net神经网络更好地融合文本信息。
+- 用新的Diffusion Transformer ( [DiT](https://arxiv.org/abs/2212.09748) )替换U-Net神经网络更好地融合文本信息。
 - 使用了各种小设计来提升模型的能力。如使用二维位置编码来实现任意分辨率的图像生成。
 
 
@@ -98,8 +98,6 @@ SD3 的 DiT 的子模块结构图如下所示。我们可以分几部分来看�
 
 ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241015104700.png)
 
-
-## 比例可变的位置编码
 
 # FLUX.1架构
 ## 基础架构图
