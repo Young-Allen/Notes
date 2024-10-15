@@ -18,16 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a2200da13ea4ca9b",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://arxiv.org/pdf/2403.03206"
-              }
-            }
           }
         ]
       }
@@ -213,6 +203,7 @@
   },
   "active": "fa0c38b7196aacdf",
   "lastOpenFiles": [
+    "().md",
     "深度学习/Comparing Flux.1 and Stable Diffusion.md",
     "Scaling.md",
     "Image Abstraction/Image Abstraction.md",
@@ -224,7 +215,6 @@
     "深度学习/vector image.md",
     "README.md",
     "Daily Work.md",
-    "().md",
     "深度学习/LLM-Book.md",
     "深度学习/LoRA-微软-算法深度讲解.pdf",
     "前端/Vue/vue.md",

@@ -77,9 +77,21 @@ SDXL Refiner模型和SDXL Base模型在结构上的异同：
 
 ## Flow Matching
 SD3相比之前的SD一个最大的变化是采用 [Rectified Flow](https://arxiv.org/abs/2210.02747) 来作为生成模型。**Flow Matching（流匹配）** 是一种用来生成图像或数据的新方法，其核心思想是通过学习如何把一个简单的分布（如随机噪声）**逐渐变成**你想要的目标分布（如真实图片）。我们可以把这个过程想象成“引导水流”，让它从一个地方自然地流向另一个地方。
+[Flow Matching讲解](https://www.bilibili.com/video/BV1Wv3xeNEds/?spm_id_from=333.337.search-card.all.click&vd_source=ebaa9b5a24bde7756de385ec80faa6a9)
 
+## Multimodal Diffusion Transformer(MM-DiT)
+SD3 的去噪模型是一个 Diffusion Transformer (DiT)。如果去噪模型只有带噪图像这一种输入的话，DiT 则会是一个结构非常简单的模型，和标准 ViT 一样：图像过图块化层 (Patching) 并与位置编码相加，得到序列化的数据。这些数据会像标准 Transformer 一样，经过若干个子模块，再过反图块层得到模型输出。DiT 的每个子模块 DiT-Block 和标准 Transformer 块一样，由 LayerNorm, Self-Attention, 一对一线性层 (Pointwise Feedforward, FF) 等模块构成。
+由于文本和图像嵌入在概念上完全不同，因此对这两种模态使用两组独立的权重。如下图所示，这相当于每种模态都有两个独立的转换器，但是将两种模态的序列连接起来进行注意力操作，这样两种表示都可以在自己的空间中工作，同时考虑另一种表示。
+
+![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241015104700.png)
 
 
 
 # FLUX.1架构
+## 基础架构图
 在Black Forest Labs发布的FLUX.1的介绍中，提到：“所有公开的FLUX.1模型基于[multimodal](https://arxiv.org/abs/2403.03206) 和 [parallel](https://arxiv.org/abs/2302.05442) [diffusion transformer](https://arxiv.org/abs/2212.09748) blocks 的混合架构，并扩展至120亿参数。我们在现有的最先进扩散模型基础上进行了改进，基于 [flow matching](https://arxiv.org/abs/2210.02747) 方法，这是一种通用且概念简单的生成模型训练方法，其中扩散模型是其特例之一。此外，我们通过集成[rotary positional embeddings](https://arxiv.org/abs/2104.09864) 和 [parallel attention layers](https://arxiv.org/abs/2302.05442) 提高了模型性能并改进了硬件效率。”
+FLUX.1可以看作是SD3的续作，在一定程度上使用的SD3的Flow Matching的思想，并对SD3的MM-DiT做了进一步的改进。因为关于FLUX.1的相关技术报告还未发布，所以FLUX.1的内部详细信息是总计网上的内容得出，下面是来自于网上的FLUX.1的架构图：
+
+![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241015105320.png)
+
+![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241015105401.png)
