@@ -65,11 +65,15 @@ SDXL Refiner模型和SDXL Base模型在结构上的异同：
 # SD3架构
 
 ## 整体架构
-从整体架构上来看，和之前的 SD 一样，SD3 主要基于隐扩散模型（latent diffusion model, LDM）。这套方法是一个两阶段的生成方法：先用一个 LDM 生成隐空间低分辨率的图像，再用一个自编码器把图像解码回真实图像。
-
-扩散模型 LDM 会使用一个神经网络模型来对噪声图像去噪。为了实现文生图，该去噪网络会以输入文本为额外约束。相比之前多数扩散模型，SD3 的主要改进是把去噪模型的结构从 **U-Net 变为了 DiT**（Diffusion Transformer ）。DiT的论文为：[Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2403.03206).下面是整体的模型架构图：
+从整体架构上来看，和之前的 SD 一样，SD3 主要基于隐扩散模型（latent diffusion model, LDM）。这套方法是一个两阶段的生成方法：先用一个 LDM 生成隐空间低分辨率的图像，再用一个自编码器把图像解码回真实图像。扩散模型 LDM 会使用一个神经网络模型来对噪声图像去噪。为了实现文生图，该去噪网络会以输入文本为额外约束。论文为：[Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2403.03206).下面是整体的模型架构图：
 
 ![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241014204535.png)
+
+在方法设计上，主要提出了以下的改进：
+- 首次在大型文生图模型上使用了整流模型（Rectified Flow）。
+- 用新的Diffusion Transformer（DiT）替换U-Net神经网络更好地融合文本信息。
+- 使用了各种小设计来提升模型的能力。如使用二维位置编码来实现任意分辨率的图像生成。
+
 
 ## Flow Matching
 SD3相比之前的SD一个最大的变化是采用 [Rectified Flow](https://arxiv.org/abs/2210.02747) 来作为生成模型。**Flow Matching（流匹配）** 是一种用来生成图像或数据的新方法，其核心思想是通过学习如何把一个简单的分布（如随机噪声）**逐渐变成**你想要的目标分布（如真实图片）。我们可以把这个过程想象成“引导水流”，让它从一个地方自然地流向另一个地方。
