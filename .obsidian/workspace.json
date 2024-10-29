@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Abstraction/A Survey of Image Abstraction 1201e0ff982f80f0bc18ff4cf92c0adb.md",
-                "mode": "preview",
+                "file": "Image Abstraction/A Survey of Image Abstraction.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -87,7 +87,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Image Abstraction/A Survey of Image Abstraction.md"
+              }
             }
           }
         ]
@@ -109,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250
+    "width": 318,
+    "collapsed": true
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -125,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Image Abstraction/A Survey of Image Abstraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,8 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 884
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,11 +210,11 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "1decebfbfe75d046",
+  "active": "6d85e7acfee7d12e",
   "lastOpenFiles": [
-    "Image Abstraction/A Survey of Image Abstraction 1201e0ff982f80f0bc18ff4cf92c0adb.md",
-    "Image Abstraction/Image Abstraction.md",
+    "Image Abstraction/A Survey of Image Abstraction.md",
     "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md",
+    "Image Abstraction/Image Abstraction.md",
     "img/Recording 20241029190309.webm",
     "img",
     "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
