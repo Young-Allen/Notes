@@ -87,9 +87,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Image Abstraction/A Survey of Image Abstraction.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Abstraction/A Survey of Image Abstraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +207,7 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "6d85e7acfee7d12e",
+  "active": "1decebfbfe75d046",
   "lastOpenFiles": [
     "Image Abstraction/A Survey of Image Abstraction.md",
     "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md",

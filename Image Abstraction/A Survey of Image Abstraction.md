@@ -15,4 +15,5 @@
 
 # Geometric-based Image Abstraction
 1. Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）
-   
+   介绍了一种图像几何抽象方法，通过一组预定义的简单参数化基本图元（如三角形、矩形、圆形和半圆）进行装配，方便对图像中的形状进行可控编辑。
+2. 
