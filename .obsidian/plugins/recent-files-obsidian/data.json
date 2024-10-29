@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization",
-      "path": "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md"
-    },
-    {
       "basename": "A Survey of Image Abstraction 1201e0ff982f80f0bc18ff4cf92c0adb",
       "path": "Image Abstraction/A Survey of Image Abstraction 1201e0ff982f80f0bc18ff4cf92c0adb.md"
     },
     {
       "basename": "Image Abstraction",
       "path": "Image Abstraction/Image Abstraction.md"
+    },
+    {
+      "basename": "Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization",
+      "path": "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md"
+    },
+    {
+      "basename": "Recording 20241029190309",
+      "path": "img/Recording 20241029190309.webm"
+    },
+    {
+      "basename": "Drawing 2024-10-29 19.02.03.excalidraw",
+      "path": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md"
     },
     {
       "basename": "Comparing Flux.1 and Stable Diffusion",
@@ -191,14 +199,6 @@
     {
       "basename": "最短路问题",
       "path": "算法/搜索与图论/最短路问题.pdf"
-    },
-    {
-      "basename": "图的存储和遍历",
-      "path": "算法/搜索与图论/图的存储和遍历.pdf"
-    },
-    {
-      "basename": "图的存储",
-      "path": "算法/搜索与图论/图的存储.md"
     }
   ],
   "omittedPaths": [],
