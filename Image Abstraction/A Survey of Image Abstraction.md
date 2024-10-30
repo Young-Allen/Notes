@@ -14,7 +14,14 @@
 
 
 # Geometric-based Image Abstraction
-## Occupy
+
+## Keywords
+1. Geometric art 
+2. Computational art 
+3. Low poly rendering 
+4. Style transfer 
+5. Non-photorealistic rendering
+## Problems that Need Attention
 These are two of the main reasons why modern logo design and animation especially favor the use of geometric primitives.
 
 1. **Simplicity and Expressibility**: On one hand, geometric primitive has very compact and explicit parameter format, thus facilitating compact representation and convenient manipulation. On the other hand, numerous combinations of geometric primitives imply rich expressive power compared with sketches. For example, the Bauhaus and Cubism arts tend to adopt ONLY simplistic shapes like rectangles and spheres, yet still with extremely rich artistic expression.
@@ -22,7 +29,9 @@ These are two of the main reasons why modern logo design and animation especiall
 
 
 ## Related Work
-1. Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）
-   介绍了一种图像几何抽象方法，通过一组预定义的简单参数化基本图元（如三角形、矩形、圆形和半圆）进行装配，方便对图像中的形状进行可控编辑。
-2. Modern Evolution Strategies for Creativity: Fitting Concrete Images and Abstract Concepts（2022EvoMUSART）
+1. Editable Image Geometric Abstraction via Neural Primitive Assembly（2023-ICCV）
+   这项研究提出了一种新颖的图像几何抽象范式，通过组合一组预定义的简单参数化基本图元（如三角形、矩形、圆形和半圆），在无监督的情况下实现图像信息的表征。能够使用四种简单的图形原语（如三角形、矩形、圆形和半圆形）有效捕捉图像中的几何信息。此外，在推理过程中，用户只需简单地替换原语类型，即可实现形状的可控编辑，从而大大提高了操作的灵活性。
+2. Modern Evolution Strategies for Creativity: Fitting Concrete Images and Abstract Concepts（2022-EvoMUSART）
+   这项研究通过将现代进化策略（ES）算法与受极简主义艺术风格启发的三角形绘图原语相结合，重新审视了进化算法在计算创造力中的应用。研究表明，与传统遗传算法相比，所提出的方法在质量和效率上有显著提升，并且其表现与基于梯度的方法相当。ES算法能够生成多样且独特的几何抽象艺术作品，这些作品与人类对语言和图像的解读相一致。
+3. Pic2PolyArt: Transforming a photograph into polygon-based geometric art（2021-Signal Processing: Image Communication)
    
