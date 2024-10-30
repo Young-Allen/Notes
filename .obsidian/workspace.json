@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Abstraction/A Survey of Image Abstraction.md",
+                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Abstraction/A Survey of Image Abstraction.md"
+                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md"
               }
             }
           }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Abstraction/A Survey of Image Abstraction.md",
+                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,6 +214,7 @@
   "active": "6d85e7acfee7d12e",
   "lastOpenFiles": [
     "Image Abstraction/A Survey of Image Abstraction.md",
+    "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
     "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md",
     "Image Abstraction/Image Abstraction.md",
     "img/Recording 20241029190309.webm",

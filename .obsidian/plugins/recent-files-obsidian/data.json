@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）",
+      "path": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md"
+    },
+    {
       "basename": "A Survey of Image Abstraction",
       "path": "Image Abstraction/A Survey of Image Abstraction.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "并查集",
       "path": "算法/并查集/并查集.md"
-    },
-    {
-      "basename": "最短路问题",
-      "path": "算法/搜索与图论/最短路问题.pdf"
     }
   ],
   "omittedPaths": [],
