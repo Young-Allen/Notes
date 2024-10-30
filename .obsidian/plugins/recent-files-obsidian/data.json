@@ -5,6 +5,10 @@
       "path": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md"
     },
     {
+      "basename": "A Survey of Style Transfer",
+      "path": "深度学习/A Survey of Style Transfer.md"
+    },
+    {
       "basename": "A Survey of Image Abstraction",
       "path": "Image Abstraction/A Survey of Image Abstraction.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "数的三次方根",
       "path": "算法/二分/数的三次方根.md"
-    },
-    {
-      "basename": "并查集",
-      "path": "算法/并查集/并查集.md"
     }
   ],
   "omittedPaths": [],
