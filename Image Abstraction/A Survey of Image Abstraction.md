@@ -29,9 +29,15 @@ These are two of the main reasons why modern logo design and animation especiall
 
 
 ## Related Work
-1. Editable Image Geometric Abstraction via Neural Primitive Assembly（2023-ICCV）
+1. Editable Image Geometric Abstraction via Neural Primitive Assembly（**2023-ICCV**）
    这项研究提出了一种新颖的图像几何抽象范式，通过组合一组预定义的简单参数化基本图元（如三角形、矩形、圆形和半圆），在无监督的情况下实现图像信息的表征。能够使用四种简单的图形原语（如三角形、矩形、圆形和半圆形）有效捕捉图像中的几何信息。此外，在推理过程中，用户只需简单地替换原语类型，即可实现形状的可控编辑，从而大大提高了操作的灵活性。
-2. Modern Evolution Strategies for Creativity: Fitting Concrete Images and Abstract Concepts（2022-EvoMUSART）
+2. Modern Evolution Strategies for Creativity: Fitting Concrete Images and Abstract Concepts（**2022-EvoMUSART**）
    这项研究通过将现代进化策略（ES）算法与受极简主义艺术风格启发的三角形绘图原语相结合，重新审视了进化算法在计算创造力中的应用。研究表明，与传统遗传算法相比，所提出的方法在质量和效率上有显著提升，并且其表现与基于梯度的方法相当。ES算法能够生成多样且独特的几何抽象艺术作品，这些作品与人类对语言和图像的解读相一致。
 3. Pic2PolyArt: Transforming a photograph into polygon-based geometric art（2021-Signal Processing: Image Communication)
-   
+4. Cubist Style Rendering from Photographs（**2003-IEEE TCVG**）
+   这项研究首先引入了照片的计算立体派风格渲染。他们的方法将同一场景的图像集中的显着特征（例如眼睛、鼻子和嘴巴）识别为构图元素，并在渲染构图之前对这些特征进行几何扭曲，以产生立体派艺术中常见的更有角度的形式。
+5. Abstract Art by Shape Classification（**2013-IEEE TVCG**）
+   这项工作提出了一种通过形状分类生成抽象艺术的方法。给定一幅图像，该方法从图像分割层次中获取输入区域并输出最佳拟合形状；例如圆形、三角形和矩形，替换输入区域以形成抽象艺术。
+6. Approximation by piecewise polynomials on Voronoi tessellation（**2014-Journal Graphical Models**）
+   提出了一种通过结合 Voronoi 细分来生成解析函数和彩色图像的分段多项式近似的方法。该算法利用梯度信息来分配种子点，使得生成的Voronoi区域的边界与原始图像的特征线对齐。结果表明，该方法仍然缺乏保持主要特征可识别的信息，因为梯度信息本身可能无法有效识别感兴趣区域。
+7. 
