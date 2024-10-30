@@ -31,11 +31,11 @@ These are two of the main reasons why modern logo design and animation especiall
 
 
 ## Related Work
-1. **Editable Image Geometric Abstraction via Neural Primitive Assembly**（**2023-ICCV**）
+1. Editable Image Geometric Abstraction via Neural Primitive Assembly（**2023-ICCV**）
    这项研究提出了一种新颖的图像几何抽象范式，通过组合一组预定义的简单参数化基本图元（如三角形、矩形、圆形和半圆），在无监督的情况下实现图像信息的表征。能够使用四种简单的图形原语（如三角形、矩形、圆形和半圆形）有效捕捉图像中的几何信息。此外，在推理过程中，用户只需简单地替换原语类型，即可实现形状的可控编辑，从而大大提高了操作的灵活性。
-2. **Modern Evolution Strategies for Creativity: Fitting Concrete Images and Abstract Concepts**（**2022-EvoMUSART**）
+2. Modern Evolution Strategies for Creativity: Fitting Concrete Images and Abstract Concepts（**2022-EvoMUSART**）
    这项研究通过将现代进化策略（ES）算法与受极简主义艺术风格启发的三角形绘图原语相结合，重新审视了进化算法在计算创造力中的应用。研究表明，与传统遗传算法相比，所提出的方法在质量和效率上有显著提升，并且其表现与基于梯度的方法相当。ES算法能够生成多样且独特的几何抽象艺术作品，这些作品与人类对语言和图像的解读相一致。
-3. **Pic2PolyArt: Transforming a photograph into polygon-based geometric art**（**2021-Signal Processing: Image Communication**)
+3. Pic2PolyArt: Transforming a photograph into polygon-based geometric art（**2021-Signal Processing: Image Communication**)
    Pic2PolyArt是一个统一的以主题为中心的几何抽象框架，可以支持基于三角形和基于多边形的抽象。给定输入照片，我们提出的算法首先结合显着性、边缘和面部检测技术来识别图像的主要主题和重要特征。然后，它生成一组种子点，Delaunay 三角剖分和 Voronoi 曲面细分使用这些种子点分别生成基于三角形和基于多边形的几何抽象。
 4. Pic2Geom: A Fast Rendering Algorithm for Low-Poly Geometric Art（**2017-PCM**）
    该算法利用边缘检测、显着性检测和人脸检测来生成一组种子点，然后由 Delaunay 三角剖分使用该种子点来生成低多边形抽象。
