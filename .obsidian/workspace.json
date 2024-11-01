@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
+                "file": "Image Abstraction/A Survey of Image Abstraction.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md"
+                "file": "Image Abstraction/A Survey of Image Abstraction.md"
               }
             }
           }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
+                "file": "Image Abstraction/A Survey of Image Abstraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,11 +211,13 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "6d85e7acfee7d12e",
+  "active": "6d1c5b88e8f3f3c0",
   "lastOpenFiles": [
-    "深度学习/A Survey of Style Transfer.md",
-    "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
+    "扩散模型/FLUX.1.md",
     "Image Abstraction/A Survey of Image Abstraction.md",
+    "扩散模型",
+    "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
+    "深度学习/A Survey of Style Transfer.md",
     "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md",
     "Image Abstraction/Image Abstraction.md",
     "img/Recording 20241029190309.webm",
@@ -250,14 +252,12 @@
     "深度学习",
     "机器学习/sklearn机器学习pdf/3.0 数据预处理与特征工程.pdf",
     "机器学习/sklearn机器学习pdf/4.0 降维算法.pdf",
-    "机器学习/sklearn机器学习pdf/10.0 XGBoost.pdf",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/x-oss-process=image.png",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.13.svg",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.15.svg",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.17.svg",
     "机器学习/Machine-Learning/assets/0监督学习.png",
     "机器学习/ML_NG课后习题/7-kmeans and PCA/data/bird_small.png",
-    "机器学习/Machine-Learning/0监督学习.md",
     "前端/服创/img/Pasted image 20230327203659.png",
     "前端/服创/img/Pasted image 20230327203646.png",
     "canvasDraft.canvas"
