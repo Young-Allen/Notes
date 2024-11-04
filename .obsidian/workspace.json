@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "深度学习/A Survey of Style Transfer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b187d4a25bcf6483",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Image Abstraction/A Survey of Image Abstraction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,13 +224,14 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "6d1c5b88e8f3f3c0",
+  "active": "b187d4a25bcf6483",
   "lastOpenFiles": [
-    "扩散模型/FLUX.1.md",
+    "深度学习/A Survey of Style Transfer.md",
     "Image Abstraction/A Survey of Image Abstraction.md",
+    "Image Abstraction/Image Abstraction.xmind",
+    "扩散模型/FLUX.1.md",
     "扩散模型",
     "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
-    "深度学习/A Survey of Style Transfer.md",
     "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md",
     "Image Abstraction/Image Abstraction.md",
     "img/Recording 20241029190309.webm",
@@ -248,10 +262,8 @@
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "Excalidraw/Drawing 2024-07-22 09.31.56.excalidraw.md",
     "Excalidraw/Drawing 2024-07-22 09.33.55.excalidraw.md",
-    "深度学习/1.PyTorch：张量简介及创建.md",
     "深度学习",
     "机器学习/sklearn机器学习pdf/3.0 数据预处理与特征工程.pdf",
-    "机器学习/sklearn机器学习pdf/4.0 降维算法.pdf",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/x-oss-process=image.png",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.13.svg",
     "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.15.svg",

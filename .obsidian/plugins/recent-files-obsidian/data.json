@@ -5,16 +5,16 @@
       "path": "Image Abstraction/A Survey of Image Abstraction.md"
     },
     {
+      "basename": "A Survey of Style Transfer",
+      "path": "深度学习/A Survey of Style Transfer.md"
+    },
+    {
       "basename": "FLUX.1",
       "path": "扩散模型/FLUX.1.md"
     },
     {
       "basename": "Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）",
       "path": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md"
-    },
-    {
-      "basename": "A Survey of Style Transfer",
-      "path": "深度学习/A Survey of Style Transfer.md"
     },
     {
       "basename": "Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization",
