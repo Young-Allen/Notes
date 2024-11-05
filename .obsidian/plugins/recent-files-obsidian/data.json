@@ -5,16 +5,20 @@
       "path": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md"
     },
     {
+      "basename": "Pasted Image 20241105194958_130",
+      "path": "Excalidraw/img/Pasted Image 20241105194958_130.png"
+    },
+    {
+      "basename": "A Survey of Image Abstraction",
+      "path": "Image Abstraction/A Survey of Image Abstraction.md"
+    },
+    {
       "basename": "Drawing 2024-07-22 09.34.33.excalidraw",
       "path": "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md"
     },
     {
       "basename": "Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）",
       "path": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md"
-    },
-    {
-      "basename": "A Survey of Image Abstraction",
-      "path": "Image Abstraction/A Survey of Image Abstraction.md"
     },
     {
       "basename": "A Survey of Style Transfer",
@@ -195,10 +199,6 @@
     {
       "basename": "优先队列——堆排序",
       "path": "算法/数据结构和STL使用/优先队列——堆排序.pdf"
-    },
-    {
-      "basename": "数的范围（二分模板）",
-      "path": "算法/二分/数的范围（二分模板）.md"
     }
   ],
   "omittedPaths": [],
