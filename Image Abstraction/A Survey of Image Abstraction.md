@@ -29,10 +29,11 @@
 1. Geometric art 
 2. Geometric abstraction
 3. Image abstraction
-4. Low poly rendering
-5. Computational art 
-6. Style transfer 
-7. Non-photorealistic rendering
+4. Parametric Primitives
+5. Low poly rendering
+6. Computational art 
+7. Style transfer 
+8. Non-photorealistic rendering
 
 
 
