@@ -50,6 +50,9 @@
 
 
 ## 3.2. Shape Attribute Set Prediction
+![image.png](https://raw.githubusercontent.com/Young-Allen/pic/main/20241105182051.png)
+
+
 
 ## 3.3. Bipartite b-Matching with Neural Soft Assignment
 
