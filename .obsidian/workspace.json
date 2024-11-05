@@ -35,11 +35,9 @@
             "id": "f3bf9bffcf81fe29",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md"
               }
             }
           }
@@ -113,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md"
+                "file": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md"
               }
             }
           }
@@ -153,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
+                "file": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,12 +236,14 @@
   },
   "active": "f3bf9bffcf81fe29",
   "lastOpenFiles": [
+    "Excalidraw/img/Pasted Image 20241105194958_130.png",
+    "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
+    "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
     "Image Abstraction/A Survey of Image Abstraction.md",
     "深度学习/A Survey of Style Transfer.md",
     "Image Abstraction/Image Abstraction.xmind",
     "扩散模型/FLUX.1.md",
     "扩散模型",
-    "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
     "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md",
     "Image Abstraction/Image Abstraction.md",
     "img/Recording 20241029190309.webm",
@@ -253,7 +253,6 @@
     "深度学习/Comparing Flux.1 and Stable Diffusion.md",
     "().md",
     "Scaling.md",
-    "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
     "Image Abstraction",
     "未命名.canvas",
     "深度学习/Limitations &.md",
