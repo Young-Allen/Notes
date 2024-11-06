@@ -32,9 +32,8 @@
 4. Image simplification
 5. Parametric Primitives
 6. Low poly rendering
-7. Computational art 
-8. Style transfer 
-9. Non-photorealistic rendering
+7. Style transfer 
+8. Non-photorealistic rendering
 
 
 
