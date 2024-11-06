@@ -35,9 +35,11 @@
             "id": "f3bf9bffcf81fe29",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md"
+                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -111,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md"
+                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md"
               }
             }
           }
@@ -134,7 +136,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399
+    "width": 399,
+    "collapsed": true
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -150,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
+                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,6 +239,7 @@
   "active": "f3bf9bffcf81fe29",
   "lastOpenFiles": [
     "Image Abstraction/A Survey of Image Abstraction.md",
+    "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
     "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
     "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
     "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.svg",
@@ -248,7 +252,6 @@
     "Excalidraw/img/Pasted Image 20240726134053_734.png",
     "Excalidraw/img/Pasted Image 20241106102921_318.png",
     "Excalidraw/img/Pasted Image 20241106102850_298.png",
-    "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
     "深度学习/A Survey of Style Transfer.md",
     "Image Abstraction/Image Abstraction.xmind",
     "扩散模型/FLUX.1.md",
