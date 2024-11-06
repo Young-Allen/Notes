@@ -5,16 +5,36 @@
       "path": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md"
     },
     {
+      "basename": "Drawing 2024-10-29 19.02.03.excalidraw",
+      "path": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.svg"
+    },
+    {
+      "basename": "Drawing 2024-10-29 19.02.03.excalidraw",
+      "path": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.png"
+    },
+    {
+      "basename": "Drawing 2024-07-22 09.34.33.excalidraw",
+      "path": "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md"
+    },
+    {
+      "basename": "Pasted Image 20241105200443_306",
+      "path": "Excalidraw/img/Pasted Image 20241105200443_306.gif"
+    },
+    {
+      "basename": "Pasted Image 20240726134153_763",
+      "path": "Excalidraw/img/Pasted Image 20240726134153_763.png"
+    },
+    {
+      "basename": "Pasted Image 20240726134053_734",
+      "path": "Excalidraw/img/Pasted Image 20240726134053_734.png"
+    },
+    {
       "basename": "A Survey of Image Abstraction",
       "path": "Image Abstraction/A Survey of Image Abstraction.md"
     },
     {
       "basename": "Pasted Image 20241105194958_130",
       "path": "Excalidraw/img/Pasted Image 20241105194958_130.png"
-    },
-    {
-      "basename": "Drawing 2024-07-22 09.34.33.excalidraw",
-      "path": "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md"
     },
     {
       "basename": "Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）",
@@ -179,26 +199,6 @@
     {
       "basename": "2. 数据标注",
       "path": "机器学习/李沐实用机器学习/2. 数据标注.md"
-    },
-    {
-      "basename": "1. 数据获取",
-      "path": "机器学习/李沐实用机器学习/1. 数据获取.md"
-    },
-    {
-      "basename": "机器学习常见模型",
-      "path": "机器学习/Machine-Learning/机器学习常见模型.md"
-    },
-    {
-      "basename": "学习算法的思路",
-      "path": "机器学习/Machine-Learning/学习算法的思路.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "机器学习/未命名.md"
-    },
-    {
-      "basename": "优先队列——堆排序",
-      "path": "算法/数据结构和STL使用/优先队列——堆排序.pdf"
     }
   ],
   "omittedPaths": [],

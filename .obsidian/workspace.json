@@ -134,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318,
+    "width": 399,
     "collapsed": true
   },
   "right": {
@@ -236,16 +236,19 @@
   },
   "active": "f3bf9bffcf81fe29",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.svg",
+    "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.png",
+    "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
+    "Excalidraw/img/Pasted Image 20241105200443_306.gif",
+    "Excalidraw/img/Pasted Image 20240726134153_763.png",
+    "Excalidraw/img/Pasted Image 20240726134053_734.png",
+    "Image Abstraction/A Survey of Image Abstraction.md",
+    "Excalidraw/img/Pasted Image 20241106102921_318.png",
+    "Excalidraw/img/Pasted Image 20241106102850_298.png",
+    "Excalidraw/img/Pasted Image 20241106102835_281.png",
     "Excalidraw/img/Pasted Image 20241105210209_804.png",
     "Excalidraw/img/Pasted Image 20241105205911_628.png",
-    "Excalidraw/img/Pasted Image 20241105205855_593.png",
-    "Image Abstraction/A Survey of Image Abstraction.md",
-    "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
-    "Excalidraw/img/Pasted Image 20241105204510_160.png",
-    "Excalidraw/img/Pasted Image 20241105202115_830.png",
-    "Excalidraw/img/Pasted Image 20241105200443_306.gif",
-    "Excalidraw/img/Pasted Image 20241105194958_130.png",
-    "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
     "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
     "深度学习/A Survey of Style Transfer.md",
     "Image Abstraction/Image Abstraction.xmind",
@@ -272,8 +275,6 @@
     "前端/前端学习路线.md",
     "阿萨.md",
     "深度学习/LoRA.md",
-    "Excalidraw/img/Pasted Image 20240726134153_763.png",
-    "Excalidraw/img/Pasted Image 20240726134053_734.png",
     "Excalidraw/img",
     "Excalidraw/Drawing 2024-07-22 09.34.14.excalidraw.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
@@ -281,8 +282,6 @@
     "Excalidraw/Drawing 2024-07-22 09.33.55.excalidraw.md",
     "深度学习",
     "机器学习/sklearn机器学习pdf/3.0 数据预处理与特征工程.pdf",
-    "机器学习/Machine-Learning/机器学习第十六章——异常检验/x-oss-process=image.png",
-    "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.13.svg",
     "canvasDraft.canvas"
   ]
 }
