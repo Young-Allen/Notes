@@ -17,8 +17,12 @@
 
 
 ## Related Work
+
+| 文献标题    | 作者    | 发表年份 | 核心内容                 | 主要方法        | 关键结果         | 创新点                  |
+| ------- | ----- | ---- | -------------------- | ----------- | ------------ | -------------------- |
+| Title A | Smith | 2020 | Background & Purpose | Methodology | Key Findings | Unique Contributions |
 1. Clipasso: Semantically-aware object sketching（2022-TOG）：CLPasso利用预训练的 CLIP 模型来提供几何和语义指导，并为具有多个抽象级别的输入图像生成草图。
-2. 
+2. CLIPascene: Scene Sketching with Different Types and Levels of Abstraction（2023-ICCV）：
 
 
 
