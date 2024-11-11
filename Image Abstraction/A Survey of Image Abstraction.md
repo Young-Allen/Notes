@@ -21,8 +21,9 @@
 | 文献标题    | 作者    | 发表年份 | 核心内容                 | 主要方法        | 关键结果         | 创新点                  |
 | ------- | ----- | ---- | -------------------- | ----------- | ------------ | -------------------- |
 | Title A | Smith | 2020 | Background & Purpose | Methodology | Key Findings | Unique Contributions |
-1. Clipasso: Semantically-aware object sketching（2022-TOG）：CLPasso利用预训练的 CLIP 模型来提供几何和语义指导，并为具有多个抽象级别的输入图像生成草图。
-2. CLIPascene: Scene Sketching with Different Types and Levels of Abstraction（2023-ICCV）：
+1. **CLIPascene: Scene Sketching with Different Types and Levels of Abstraction（2023-ICCV）**：本文提出了一种将自然场景照片转换为多层次抽象草图的计算方法，分为“保真度”和“简约度”两个抽象轴。通过在这两个轴上逐渐移动生成草图，保真度轴侧重于保留图像的几何结构或语义信息，而简约度轴控制细节层次。通过分离前景和背景并引入两个抽象轴，该方法为生成不同抽象层次的草图提供了灵活框架。此外，草图由贝塞尔曲线表示，利用CLIP-ViT和多层感知机（MLP）网络进行训练以保持语义和几何信息。研究表明生成的草图可以在多个抽象层次上展示场景的核心特征，并优于以往基于风格的草图生成方法。
+2. **Clipasso: Semantically-aware object sketching（2022-TOG）**：本文提出了一种基于CLIP引导的优化方法，用于将照片转化为抽象草图，不依赖于特定的草图数据集。该方法通过CLIP编码器捕捉目标对象的语义特征，同时利用照片提供的几何基础，实现语义与几何简化。草图由贝塞尔曲线组成，抽象层次由笔触数量控制。利用可微分光栅化器优化笔触的控制点位置，并通过局部注意力图进行显著性引导的初始化，使得生成的草图不仅简约，还保留了输入对象的关键特征。最终生成的草图能够有效表达输入对象的语义和视觉信息，并提供较高的类别与实例识别能力。
+3. 
 
 
 
