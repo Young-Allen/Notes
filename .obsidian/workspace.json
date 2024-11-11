@@ -30,31 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f3bf9bffcf81fe29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18d2de6eb87767e6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md"
+                "file": "Image Abstraction/A Survey of Image Abstraction.md"
               }
             }
           }
@@ -163,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
+                "file": "Image Abstraction/A Survey of Image Abstraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,12 +224,12 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "f3bf9bffcf81fe29",
+  "active": "b187d4a25bcf6483",
   "lastOpenFiles": [
     "深度学习/A Survey of Style Transfer.md",
     "Image Abstraction/A Survey of Image Abstraction.md",
-    "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
     "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
+    "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
     "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
     "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.svg",
     "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.png",

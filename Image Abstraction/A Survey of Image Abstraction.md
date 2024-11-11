@@ -17,7 +17,7 @@
 
 
 ## Related Work
-1. Clipasso: Semantically-aware object sketching（**2022-TOG**）：CLPasso利用预训练的 CLIP 模型来提供几何和语义指导，并为具有多个抽象级别的输入图像生成草图。
+1. Clipasso: Semantically-aware object sketching（2022-TOG）：CLPasso利用预训练的 CLIP 模型来提供几何和语义指导，并为具有多个抽象级别的输入图像生成草图。
 2. 
 
 
