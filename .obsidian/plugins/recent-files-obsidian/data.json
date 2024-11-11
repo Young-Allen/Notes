@@ -5,12 +5,12 @@
       "path": "Image Abstraction/A Survey of Image Abstraction.md"
     },
     {
-      "basename": "A Survey of Style Transfer",
-      "path": "深度学习/A Survey of Style Transfer.md"
-    },
-    {
       "basename": "Drawing 2024-10-29 19.02.03.excalidraw",
       "path": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md"
+    },
+    {
+      "basename": "A Survey of Style Transfer",
+      "path": "深度学习/A Survey of Style Transfer.md"
     },
     {
       "basename": "Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）",
