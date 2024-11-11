@@ -28,7 +28,7 @@
 5. **Learning Deep Sketch Abstraction（2018-CVPR）**：本文提出了第一个深度素描抽象模型，开发了一种基于循环神经网络（RNN）的抽象模型，学习评估每个笔画片段的重要性，并决定是否跳过或保留该片段。任何部分的去除对可识别性的影响都与其他部分的保留/去除相互依赖。该模型能够在类别级和实例级合成中实现对抽象水平的控制，同时提出了一种新的照片到手绘素描合成方法，用于生成细粒度素描图像检索（FG-SBIR）训练所需的多样化数据，避免了对照片素描对的依赖。实验表明，该模型在信息传达的效果上超过了现有方法，为拓展FG-SBIR提供了新的思路和潜力。
 6. **Semi-supervised reference-based sketch extraction using a contrastive learning framework（2023-SIGGRAPH）**：
 7. **Synthesizing human-like sketches from natural images  using a conditional convolutional decoder（2020-WACV）**：文章中提及的”human-like“的概念比较有趣。本文旨在开发一种将自然图像转换为人类风格素描的算法，以反映人类抽象能力。研究显示，卷积神经网络（CNNs）在图像分类任务中倾向于纹理，但通过适当的结构和训练，这些网络也能够学到隐含的形状表示。本文采用了一个全卷积编码-解码结构，实现了图像空间到素描空间的映射，生成具有“人类风格”的素描。研究结果表明，这种方法不仅可用于增强基于素描的检索数据库等应用，还对复杂的形状相关任务提供了新的视角。
-8. **Learning to generate line drawings that convey geometry and semantics（2022-CVPR）**：
+8. **Learning to generate line drawings that convey geometry and semantics（2022-CVPR）**：文中提出的无监督生成方法，可能可以在一定程度上指导几何抽象过程（因为从图像到几何抽象图的过程也可能面临没有ground truth的问题）本文提出了一种新的无监督方法，用于从照片自动生成有效的线条画。该方法通过显式注入几何形状和语义信息，解决了传统自动生成方法中缺乏配对训练数据的问题。通过深度学习，方法能够从线条画中解码出深度、语义和外观信息，从而确保生成的线条画准确地反映输入图像的几何和语义。
 
 
 
