@@ -24,9 +24,10 @@
 1. **CLIPascene: Scene Sketching with Different Types and Levels of Abstraction（2023-ICCV）**：本文提出了一种将自然场景照片转换为多层次抽象草图的计算方法，分为“保真度”和“简约度”两个抽象轴。通过在这两个轴上逐渐移动生成草图，保真度轴侧重于保留图像的几何结构或语义信息，而简约度轴控制细节层次。通过分离前景和背景并引入两个抽象轴，该方法为生成不同抽象层次的草图提供了灵活框架。此外，草图由贝塞尔曲线表示，利用CLIP-ViT和多层感知机（MLP）网络进行训练以保持语义和几何信息。研究表明生成的草图可以在多个抽象层次上展示场景的核心特征，并优于以往基于风格的草图生成方法。
 2. **Clipasso: Semantically-aware object sketching（2022-TOG）**：本文提出了一种基于CLIP引导的优化方法，用于将照片转化为抽象草图，不依赖于特定的草图数据集。该方法通过CLIP编码器捕捉目标对象的语义特征，同时利用照片提供的几何基础，实现语义与几何简化。草图由贝塞尔曲线组成，抽象层次由笔触数量控制。利用可微分光栅化器优化笔触的控制点位置，并通过局部注意力图进行显著性引导的初始化，使得生成的草图不仅简约，还保留了输入对象的关键特征。最终生成的草图能够有效表达输入对象的语义和视觉信息，并提供较高的类别与实例识别能力。
 3. **Learning Realistic Sketching: A Dual-agent Reinforcement Learning Approach（2024-MM）**：本文提出了一种基于双智能代理的新方法，用于实现逼真且具有语义准确性、风格一致性和细节完整性的素描生成。针对传统网格分割导致的笔触不连续和分配不均的问题，引入了注意力代理，通过动态调整绘制区域位置和大小，灵活分配笔触并提高笔触连续性。此外，本文引入了一个素描风格特征提取器和绘图代理，用于语义提取与风格转换分离，并通过分布奖励和XDoG奖励机制确保草图细节完整性。实验表明，在相同笔触数量下，该方法在视觉效果和感知指标上均优于当前最先进方法，特别是在多种真实场景图像中的素描实验中展现了优异表现，生成的绘图更为逼真生动。
-4. **Sketch Generation with Drawing Process Guided by Vector Flow and Grayscale（2021-AAAI）**：
+4. **Sketch Generation with Drawing Process Guided by Vector Flow and Grayscale（2021-AAAI）**：本文提出了一种新颖的图像转铅笔素描算法，不仅能够生成高质量的铅笔画，还可展示绘画过程。该算法通过观察真实的铅笔素描绘制过程，并借鉴艺术家笔触的方向、阴影等特点，将绘制过程分为两步：首先开发基于参数控制的笔触生成机制，随后通过引导框架进行笔触排列。与现有方法相比，该算法在纹理质量、风格表现和用户评价方面表现优越。此方法通过模拟艺术家绘画技术，提供了更强的可解释性，能够生成具有不同视觉效果的铅笔素描。
 5. **Learning Deep Sketch Abstraction（2018-CVPR）**：本文提出了第一个深度素描抽象模型，开发了一种基于循环神经网络（RNN）的抽象模型，学习评估每个笔画片段的重要性，并决定是否跳过或保留该片段。任何部分的去除对可识别性的影响都与其他部分的保留/去除相互依赖。该模型能够在类别级和实例级合成中实现对抽象水平的控制，同时提出了一种新的照片到手绘素描合成方法，用于生成细粒度素描图像检索（FG-SBIR）训练所需的多样化数据，避免了对照片素描对的依赖。实验表明，该模型在信息传达的效果上超过了现有方法，为拓展FG-SBIR提供了新的思路和潜力。
 6. Semi-supervised reference-based sketch extraction using a contrastive learning framework（2023-SIGGRAPH）：
+7. **Synthesizing human-like sketches from natural images  using a conditional convolutional decoder（2020-WACV）**：
 
 
 
