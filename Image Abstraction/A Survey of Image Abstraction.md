@@ -9,10 +9,12 @@
 ## Key Words
 1. non-photorealistic rendering
 2. image simplification
-3. 
+3. image abstraction
+4. image segmentation
+
 ## Related Work
 1. **Stylization and Abstraction of Photographs(2002-SIGGRAPH)**：本文提出了一种新的计算方法，用于对照片进行样式化和抽象处理，以增强图像中重要视觉结构的清晰度。该方法通过识别照片中的视觉部分和边界，提供保留和突出关键元素的框架。用户只需通过注视图像来识别重要内容，系统会利用眼动数据来预测图像中携带重要信息的元素，并应用一系列转换（如去除细节、平均颜色、叠加粗线边缘），以增强图像的视觉表现。
-2. **Image Abstraction by Structure Adaptive Filtering(2008-TPCG)**：
+2. **Image Abstraction by Structure Adaptive Filtering(2008-TPCG)**：本文提出了一种非真实感图像处理方法，旨在从3D应用的高信息密度图像中提取出关键视觉信息，以优化小屏幕显示效果。该方法改进了Winnemöller等人的迭代双边滤波（用于图像抽象）和差分高斯（DoG）边缘提取方法，适应局部方向，且计算更高效。通过构建平滑张量场并在梯度方向上垂直滤波，该方法能在曲线边界上获得平滑输出，适合颜色量化处理。相比传统DoG边缘，基于流的差分高斯（FDoG）生成的线条更连贯，同时计算复杂度更低。
 3. **Pixelated Image Abstraction(2012-NPAR)**：
 # Sketch-based Image Abstraction
 ## Related Work
