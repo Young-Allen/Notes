@@ -11,8 +11,9 @@
 2. image simplification
 3. 
 ## Related Work
-1. **Stylization and Abstraction of Photographs(2002-SIGGRAPH)：**
-
+1. **Stylization and Abstraction of Photographs(2002-SIGGRAPH)**：本文提出了一种新的计算方法，用于对照片进行样式化和抽象处理，以增强图像中重要视觉结构的清晰度。该方法通过识别照片中的视觉部分和边界，提供保留和突出关键元素的框架。用户只需通过注视图像来识别重要内容，系统会利用眼动数据来预测图像中携带重要信息的元素，并应用一系列转换（如去除细节、平均颜色、叠加粗线边缘），以增强图像的视觉表现。
+2. **Image Abstraction by Structure Adaptive Filtering(2008-TPCG)**：
+3. **Pixelated Image Abstraction(2012-NPAR)**：
 # Sketch-based Image Abstraction
 ## Related Work
 1. **CLIPascene: Scene Sketching with Different Types and Levels of Abstraction（2023-ICCV）**：本文提出了一种将自然场景照片转换为多层次抽象草图的计算方法，分为“保真度”和“简约度”两个抽象轴。通过在这两个轴上逐渐移动生成草图，保真度轴侧重于保留图像的几何结构或语义信息，而简约度轴控制细节层次。通过分离前景和背景并引入两个抽象轴，该方法为生成不同抽象层次的草图提供了灵活框架。此外，草图由贝塞尔曲线表示，利用CLIP-ViT和多层感知机（MLP）网络进行训练以保持语义和几何信息。研究表明生成的草图可以在多个抽象层次上展示场景的核心特征，并优于以往基于风格的草图生成方法。
