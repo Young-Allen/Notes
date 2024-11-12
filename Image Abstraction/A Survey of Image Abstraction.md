@@ -6,7 +6,12 @@
 # Preliminarles
 
 # Pixel-based Image Abstraction
-
+## Key Words
+1. non-photorealistic rendering
+2. image simplification
+3. 
+## Related Work
+1. **Stylization and Abstraction of Photographs(2002-SIGGRAPH)：**
 
 # Sketch-based Image Abstraction
 ## Related Work
