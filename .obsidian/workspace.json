@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Abstraction/A Survey of Image Abstraction.md"
+                "file": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md"
               }
             }
           }
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Abstraction/A Survey of Image Abstraction.md",
+                "file": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,10 +221,13 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b187d4a25bcf6483",
+  "active": "158ac6033d032620",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
+    "Excalidraw/img/Pasted Image 20241120221004_527.png",
+    "Excalidraw/img/Pasted Image 20241120220805_775.png",
     "Image Abstraction/A Survey of Image Abstraction.md",
+    "Image Abstraction/Image Abstraction.md",
+    "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
     "Image Abstraction/Image Abstraction.png",
     "深度学习/A Survey of Style Transfer.md",
     "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
@@ -236,12 +240,10 @@
     "Excalidraw/img/Pasted Image 20241105200443_306.gif",
     "Excalidraw/img/Pasted Image 20240726134153_763.png",
     "Excalidraw/img/Pasted Image 20240726134053_734.png",
-    "Excalidraw/img/Pasted Image 20241106102921_318.png",
     "Image Abstraction/Image Abstraction.xmind",
     "扩散模型/FLUX.1.md",
     "扩散模型",
     "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md",
-    "Image Abstraction/Image Abstraction.md",
     "img/Recording 20241029190309.webm",
     "img",
     "RadePapers",
