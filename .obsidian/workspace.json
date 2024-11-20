@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "158ac6033d032620",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md"
+              }
+            }
           }
         ]
       }
@@ -111,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399,
-    "collapsed": true
+    "width": 399
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -213,9 +222,10 @@
   },
   "active": "b187d4a25bcf6483",
   "lastOpenFiles": [
+    "Image Abstraction/Image Abstraction.png",
     "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
-    "深度学习/A Survey of Style Transfer.md",
     "Image Abstraction/A Survey of Image Abstraction.md",
+    "深度学习/A Survey of Style Transfer.md",
     "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
     "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
     "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.svg",
