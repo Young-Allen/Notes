@@ -23,11 +23,9 @@
             "id": "158ac6033d032620",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Image Abstraction/A Survey of Image Abstraction.md",
-                "mode": "source",
-                "source": false
+                "file": "算法/数据结构和STL使用/list容器.pdf"
               }
             }
           }
@@ -101,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Abstraction/A Survey of Image Abstraction.md"
+                "file": "算法/数据结构和STL使用/list容器.pdf"
               }
             }
           }
@@ -140,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Abstraction/A Survey of Image Abstraction.md",
+                "file": "算法/数据结构和STL使用/list容器.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,11 +223,16 @@
   },
   "active": "158ac6033d032620",
   "lastOpenFiles": [
+    "算法/数据结构和STL使用/map容器.pdf",
+    "算法/数据结构和STL使用/algorithm头文件的常用函数.pdf",
+    "算法/数据结构和STL使用/优先队列——堆排序.pdf",
+    "算法/数据结构和STL使用/vector容器（动态创建数组）.pdf",
+    "算法/[NOIP2016 提高组] 组合数问题.md",
+    "Image Abstraction/A Survey of Image Abstraction.md",
     "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
     "Excalidraw/img/Pasted Image 20241120222409_407.png",
     "Excalidraw/img/Pasted Image 20241120221004_527.png",
     "Excalidraw/img/Pasted Image 20241120220805_775.png",
-    "Image Abstraction/A Survey of Image Abstraction.md",
     "Image Abstraction/Image Abstraction.md",
     "Image Abstraction/Image Abstraction.png",
     "深度学习/A Survey of Style Transfer.md",
@@ -264,13 +267,9 @@
     "前端/前端学习路线.md",
     "阿萨.md",
     "深度学习/LoRA.md",
-    "Excalidraw/img",
     "Excalidraw/Drawing 2024-07-22 09.34.14.excalidraw.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "Excalidraw/Drawing 2024-07-22 09.31.56.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-22 09.33.55.excalidraw.md",
-    "深度学习",
-    "机器学习/sklearn机器学习pdf/3.0 数据预处理与特征工程.pdf",
     "canvasDraft.canvas"
   ]
 }

@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "list容器",
+      "path": "算法/数据结构和STL使用/list容器.pdf"
+    },
+    {
+      "basename": "map容器",
+      "path": "算法/数据结构和STL使用/map容器.pdf"
+    },
+    {
+      "basename": "algorithm头文件的常用函数",
+      "path": "算法/数据结构和STL使用/algorithm头文件的常用函数.pdf"
+    },
+    {
+      "basename": "优先队列——堆排序",
+      "path": "算法/数据结构和STL使用/优先队列——堆排序.pdf"
+    },
+    {
+      "basename": "vector容器（动态创建数组）",
+      "path": "算法/数据结构和STL使用/vector容器（动态创建数组）.pdf"
+    },
+    {
+      "basename": "[NOIP2016 提高组] 组合数问题",
+      "path": "算法/[NOIP2016 提高组] 组合数问题.md"
+    },
+    {
       "basename": "A Survey of Image Abstraction",
       "path": "Image Abstraction/A Survey of Image Abstraction.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "4树模型",
       "path": "机器学习/Machine-Learning/4树模型.md"
-    },
-    {
-      "basename": "关于大模型的一些思考",
-      "path": "机器学习/Machine-Learning/关于大模型的一些思考.md"
-    },
-    {
-      "basename": "代价函数不是凸函数吗，为什么还会有局部最优的情况",
-      "path": "机器学习/Machine-Learning/代价函数不是凸函数吗，为什么还会有局部最优的情况.md"
-    },
-    {
-      "basename": "代价函数、优化函数-Bing",
-      "path": "机器学习/Machine-Learning/代价函数、优化函数-Bing.md"
-    },
-    {
-      "basename": "5无监督学习",
-      "path": "机器学习/Machine-Learning/5无监督学习.md"
-    },
-    {
-      "basename": "3.数据探索性分析",
-      "path": "机器学习/李沐实用机器学习/3.数据探索性分析.md"
-    },
-    {
-      "basename": "2. 数据标注",
-      "path": "机器学习/李沐实用机器学习/2. 数据标注.md"
     }
   ],
   "omittedPaths": [],
