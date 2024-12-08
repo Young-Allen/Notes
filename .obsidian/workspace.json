@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "50c4f160518f2be6",
+        "id": "c4fb2274665352a7",
         "type": "tabs",
         "children": [
           {
-            "id": "b187d4a25bcf6483",
+            "id": "e613590af86a41e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Abstraction/A Survey of Image Abstraction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "158ac6033d032620",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "算法/数据结构和STL使用/list容器.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,9 +83,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "算法/数据结构和STL使用/list容器.pdf"
-              }
+              "state": {}
             }
           }
         ]
@@ -138,7 +121,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/数据结构和STL使用/list容器.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,29 +203,31 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "158ac6033d032620",
+  "active": "e613590af86a41e8",
   "lastOpenFiles": [
+    "Image Abstraction/A Survey of Image Abstraction.md",
+    "Excalidraw/image abstraction pipeline.excalidraw.svg",
+    "Excalidraw/image abstraction pipeline.excalidraw.md",
+    "Excalidraw/image abstraction pipeline.excalidraw.png",
+    "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
+    "Excalidraw/img/Pasted Image 20241208134754_799.png",
+    "Excalidraw/img/Pasted Image 20241208134545_981.png",
+    "Excalidraw/img/Pasted Image 20241208134438_881.png",
+    "Excalidraw/img/Pasted Image 20241208134353_865.png",
+    "Excalidraw/img/Pasted Image 20241208134244_783.png",
+    "Excalidraw/img/Pasted Image 20241208134154_705.png",
+    "Excalidraw/img/Pasted Image 20241208134031_612.png",
+    "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.svg",
+    "深度学习/A Survey of Style Transfer.md",
+    "算法/数据结构和STL使用/list容器.pdf",
     "算法/数据结构和STL使用/map容器.pdf",
     "算法/数据结构和STL使用/algorithm头文件的常用函数.pdf",
     "算法/数据结构和STL使用/优先队列——堆排序.pdf",
     "算法/数据结构和STL使用/vector容器（动态创建数组）.pdf",
     "算法/[NOIP2016 提高组] 组合数问题.md",
-    "Image Abstraction/A Survey of Image Abstraction.md",
-    "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
-    "Excalidraw/img/Pasted Image 20241120222409_407.png",
-    "Excalidraw/img/Pasted Image 20241120221004_527.png",
-    "Excalidraw/img/Pasted Image 20241120220805_775.png",
     "Image Abstraction/Image Abstraction.md",
-    "Image Abstraction/Image Abstraction.png",
-    "深度学习/A Survey of Style Transfer.md",
     "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
-    "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
-    "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.svg",
-    "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.png",
-    "Excalidraw/img/Pasted Image 20241106145559_118.png",
-    "Excalidraw/img/Pasted Image 20241106144250_608.png",
-    "Excalidraw/img/Pasted Image 20241106143447_298.png",
-    "Excalidraw/img/Pasted Image 20241105200443_306.gif",
     "Image Abstraction/Image Abstraction.xmind",
     "扩散模型/FLUX.1.md",
     "扩散模型",
@@ -254,7 +238,6 @@
     "深度学习/Comparing Flux.1 and Stable Diffusion.md",
     "().md",
     "Scaling.md",
-    "Image Abstraction",
     "未命名.canvas",
     "深度学习/Limitations &.md",
     "深度学习/Style Transfer.md",
@@ -262,14 +245,12 @@
     "README.md",
     "Daily Work.md",
     "深度学习/LLM-Book.md",
-    "深度学习/LoRA-微软-算法深度讲解.pdf",
     "前端/Vue/vue.md",
     "前端/前端学习路线.md",
     "阿萨.md",
     "深度学习/LoRA.md",
     "Excalidraw/Drawing 2024-07-22 09.34.14.excalidraw.md",
     "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-22 09.31.56.excalidraw.md",
     "canvasDraft.canvas"
   ]
 }
