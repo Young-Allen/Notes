@@ -11,8 +11,10 @@
             "id": "e613590af86a41e8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/image abstraction pipeline.excalidraw.md"
+              }
             }
           }
         ]
@@ -83,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Excalidraw/image abstraction pipeline.excalidraw.md"
+              }
             }
           }
         ]
@@ -121,6 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excalidraw/image abstraction pipeline.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
