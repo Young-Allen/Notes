@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "最短路问题",
+      "path": "算法/搜索与图论/最短路问题.pdf"
+    },
+    {
+      "basename": "图的存储和遍历",
+      "path": "算法/搜索与图论/图的存储和遍历.pdf"
+    },
+    {
+      "basename": "图的存储",
+      "path": "算法/搜索与图论/图的存储.md"
+    },
+    {
+      "basename": "拓扑排序",
+      "path": "算法/搜索与图论/拓扑排序.md"
+    },
+    {
       "basename": "image abstraction pipeline.excalidraw",
       "path": "Excalidraw/image abstraction pipeline.excalidraw.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "ex6",
       "path": "机器学习/ML_NG课后习题/6-SVM/ex6.pdf"
-    },
-    {
-      "basename": "bird_small",
-      "path": "机器学习/ML_NG课后习题/7-kmeans and PCA/data/bird_small.png"
-    },
-    {
-      "basename": "ex7",
-      "path": "机器学习/ML_NG课后习题/7-kmeans and PCA/ex7.pdf"
-    },
-    {
-      "basename": "1神经网络",
-      "path": "机器学习/Machine-Learning/1神经网络.md"
-    },
-    {
-      "basename": "3模型评估",
-      "path": "机器学习/Machine-Learning/3模型评估.md"
     }
   ],
   "omittedPaths": [],

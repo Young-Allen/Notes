@@ -11,9 +11,9 @@
             "id": "e613590af86a41e8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "pdf",
               "state": {
-                "file": "Excalidraw/image abstraction pipeline.excalidraw.md"
+                "file": "算法/搜索与图论/最短路问题.pdf"
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/image abstraction pipeline.excalidraw.md"
+                "file": "算法/搜索与图论/最短路问题.pdf"
               }
             }
           }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/image abstraction pipeline.excalidraw.md",
+                "file": "算法/搜索与图论/最短路问题.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,9 +210,12 @@
   },
   "active": "e613590af86a41e8",
   "lastOpenFiles": [
+    "算法/搜索与图论/图的存储和遍历.pdf",
+    "算法/搜索与图论/图的存储.md",
+    "算法/搜索与图论/拓扑排序.md",
+    "Excalidraw/image abstraction pipeline.excalidraw.md",
     "Image Abstraction/A Survey of Image Abstraction.md",
     "Excalidraw/image abstraction pipeline.excalidraw.svg",
-    "Excalidraw/image abstraction pipeline.excalidraw.md",
     "Excalidraw/image abstraction pipeline.excalidraw.png",
     "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
     "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
@@ -254,8 +257,6 @@
     "前端/前端学习路线.md",
     "阿萨.md",
     "深度学习/LoRA.md",
-    "Excalidraw/Drawing 2024-07-22 09.34.14.excalidraw.md",
-    "Excalidraw/Drawing 2024-03-17 19.41.50.excalidraw.md",
     "canvasDraft.canvas"
   ]
 }
