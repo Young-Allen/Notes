@@ -111,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399
+    "width": 261
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -210,8 +210,10 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "e613590af86a41e8",
+  "active": "6d1c5b88e8f3f3c0",
   "lastOpenFiles": [
+    "算法/并查集/并查集.md",
+    "未命名.md",
     "算法/搜索与图论/最短路问题.pdf",
     "算法/搜索与图论/图的存储和遍历.pdf",
     "算法/搜索与图论/图的存储.md",
@@ -244,7 +246,6 @@
     "扩散模型",
     "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md",
     "img/Recording 20241029190309.webm",
-    "img",
     "深度学习/Comparing Flux.1 and Stable Diffusion.md",
     "().md",
     "Scaling.md",
@@ -258,7 +259,6 @@
     "前端/Vue/vue.md",
     "前端/前端学习路线.md",
     "阿萨.md",
-    "深度学习/LoRA.md",
     "canvasDraft.canvas"
   ]
 }
