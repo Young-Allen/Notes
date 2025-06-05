@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vue",
+      "path": "前端/Vue/vue.md"
+    },
+    {
       "basename": "并查集",
       "path": "算法/并查集/并查集.md"
     },
@@ -139,10 +143,6 @@
     {
       "basename": "LoRA-微软-算法深度讲解",
       "path": "深度学习/LoRA-微软-算法深度讲解.pdf"
-    },
-    {
-      "basename": "vue",
-      "path": "前端/Vue/vue.md"
     },
     {
       "basename": "前端学习路线",

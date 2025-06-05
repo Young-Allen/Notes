@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/并查集/并查集.md",
+                "file": "前端/Vue/vue.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,11 +88,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/并查集/并查集.md"
+                "file": "前端/Vue/vue.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "e7a1d18f322e6285",
@@ -127,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/并查集/并查集.md",
+                "file": "前端/Vue/vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +211,7 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "6d1c5b88e8f3f3c0",
+  "active": "1459431483688f16",
   "lastOpenFiles": [
     "算法/并查集/并查集.md",
     "未命名.md",
