@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "前端/Vue/vue.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -211,7 +211,7 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "1459431483688f16",
+  "active": "e613590af86a41e8",
   "lastOpenFiles": [
     "算法/并查集/并查集.md",
     "未命名.md",
