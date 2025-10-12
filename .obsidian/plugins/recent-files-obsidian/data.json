@@ -1,6 +1,70 @@
 {
   "recentFiles": [
     {
+      "basename": "[NOIP2016 提高组] 组合数问题",
+      "path": "算法/[NOIP2016 提高组] 组合数问题.md"
+    },
+    {
+      "basename": "服务器后端部署",
+      "path": "Unity/服务器后端部署.md"
+    },
+    {
+      "basename": "5. 切换武器",
+      "path": "Unity/5. 切换武器.md"
+    },
+    {
+      "basename": "4. 射击伤害与重生",
+      "path": "Unity/4. 射击伤害与重生.md"
+    },
+    {
+      "basename": "3. 飞行和射击",
+      "path": "Unity/3. 飞行和射击.md"
+    },
+    {
+      "basename": "2.联机",
+      "path": "Unity/2.联机.md"
+    },
+    {
+      "basename": "1.项目创建和角色移动",
+      "path": "Unity/1.项目创建和角色移动.md"
+    },
+    {
+      "basename": "背包问题三个经典问题",
+      "path": "算法/Carl/背包问题三个经典问题.pdf"
+    },
+    {
+      "basename": "背包问题九讲 2.0",
+      "path": "算法/Carl/背包问题九讲 2.0.pdf"
+    },
+    {
+      "basename": "背包九讲",
+      "path": "算法/Carl/背包九讲.pdf"
+    },
+    {
+      "basename": "递归实现枚举",
+      "path": "算法/递归枚举/递归实现枚举.md"
+    },
+    {
+      "basename": "回溯算法",
+      "path": "算法/Carl/回溯算法.pdf"
+    },
+    {
+      "basename": "二叉树",
+      "path": "算法/Carl/二叉树.pdf"
+    },
+    {
+      "basename": "动态规划",
+      "path": "算法/Carl/动态规划.pdf"
+    },
+    {
+      "basename": "程序员求职",
+      "path": "算法/Carl/程序员求职.pdf"
+    },
+    {
+      "basename": "背包问题",
+      "path": "算法/动态规划/背包问题.md"
+    },
+    {
       "basename": "vue",
       "path": "前端/Vue/vue.md"
     },
@@ -73,10 +137,6 @@
       "path": "算法/数据结构和STL使用/vector容器（动态创建数组）.pdf"
     },
     {
-      "basename": "[NOIP2016 提高组] 组合数问题",
-      "path": "算法/[NOIP2016 提高组] 组合数问题.md"
-    },
-    {
       "basename": "Image Abstraction",
       "path": "Image Abstraction/Image Abstraction.md"
     },
@@ -113,10 +173,6 @@
       "path": "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md"
     },
     {
-      "basename": "Recording 20241029190309",
-      "path": "img/Recording 20241029190309.webm"
-    },
-    {
       "basename": "Comparing Flux.1 and Stable Diffusion",
       "path": "深度学习/Comparing Flux.1 and Stable Diffusion.md"
     },
@@ -143,58 +199,6 @@
     {
       "basename": "LoRA-微软-算法深度讲解",
       "path": "深度学习/LoRA-微软-算法深度讲解.pdf"
-    },
-    {
-      "basename": "前端学习路线",
-      "path": "前端/前端学习路线.md"
-    },
-    {
-      "basename": "0监督学习",
-      "path": "机器学习/Machine-Learning/0监督学习.md"
-    },
-    {
-      "basename": "3.0 数据预处理与特征工程",
-      "path": "机器学习/sklearn机器学习pdf/3.0 数据预处理与特征工程.pdf"
-    },
-    {
-      "basename": "4.0 降维算法",
-      "path": "机器学习/sklearn机器学习pdf/4.0 降维算法.pdf"
-    },
-    {
-      "basename": "2.0 随机森林",
-      "path": "机器学习/sklearn机器学习pdf/2.0 随机森林.pdf"
-    },
-    {
-      "basename": "1.0 决策树",
-      "path": "机器学习/sklearn机器学习pdf/1.0 决策树.pdf"
-    },
-    {
-      "basename": "1.1 决策树原理",
-      "path": "机器学习/sklearn机器学习pdf/1.1 决策树原理.pdf"
-    },
-    {
-      "basename": "XGBoost",
-      "path": "机器学习/Machine-Learning/XGBoost.pdf"
-    },
-    {
-      "basename": "x-oss-process=image",
-      "path": "机器学习/Machine-Learning/机器学习第十六章——异常检验/x-oss-process=image.png"
-    },
-    {
-      "basename": "math.13",
-      "path": "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.13.svg"
-    },
-    {
-      "basename": "math.15",
-      "path": "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.15.svg"
-    },
-    {
-      "basename": "math.17",
-      "path": "机器学习/Machine-Learning/机器学习第十六章——异常检验/math.17.svg"
-    },
-    {
-      "basename": "0监督学习",
-      "path": "机器学习/Machine-Learning/assets/0监督学习.png"
     }
   ],
   "omittedPaths": [],

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/Vue/vue.md",
-                "mode": "preview",
+                "file": "算法/[NOIP2016 提高组] 组合数问题.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -88,12 +88,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/Vue/vue.md"
+                "file": "算法/[NOIP2016 提高组] 组合数问题.md"
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "e7a1d18f322e6285",
@@ -112,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261
+    "width": 319
   },
   "right": {
     "id": "329398b3dd8c5bd2",
@@ -128,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/Vue/vue.md",
+                "file": "算法/[NOIP2016 提高组] 组合数问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,6 +212,24 @@
   },
   "active": "e613590af86a41e8",
   "lastOpenFiles": [
+    "Unity/服务器后端部署.md",
+    "Unity/5. 切换武器.md",
+    "Unity/4. 射击伤害与重生.md",
+    "Unity/3. 飞行和射击.md",
+    "Unity/2.联机.md",
+    "Unity/1.项目创建和角色移动.md",
+    "算法/Carl/背包问题三个经典问题.pdf",
+    "img/Recording 20241029190309.webm",
+    "算法/Carl/背包问题九讲 2.0.pdf",
+    "算法/Carl/背包九讲.pdf",
+    "算法/递归枚举/递归实现枚举.md",
+    "算法/Carl/回溯算法.pdf",
+    "算法/Carl/二叉树.pdf",
+    "算法/Carl/动态规划.pdf",
+    "算法/Carl/程序员求职.pdf",
+    "算法/[NOIP2016 提高组] 组合数问题.md",
+    "算法/动态规划/背包问题.md",
+    "前端/Vue/vue.md",
     "算法/并查集/并查集.md",
     "未命名.md",
     "算法/搜索与图论/最短路问题.pdf",
@@ -234,32 +251,14 @@
     "Excalidraw/img/Pasted Image 20241208134031_612.png",
     "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.svg",
     "深度学习/A Survey of Style Transfer.md",
-    "算法/数据结构和STL使用/list容器.pdf",
-    "算法/数据结构和STL使用/map容器.pdf",
-    "算法/数据结构和STL使用/algorithm头文件的常用函数.pdf",
-    "算法/数据结构和STL使用/优先队列——堆排序.pdf",
-    "算法/数据结构和STL使用/vector容器（动态创建数组）.pdf",
-    "算法/[NOIP2016 提高组] 组合数问题.md",
     "Image Abstraction/Image Abstraction.md",
     "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
-    "Image Abstraction/Image Abstraction.xmind",
     "扩散模型/FLUX.1.md",
-    "扩散模型",
     "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md",
-    "img/Recording 20241029190309.webm",
     "深度学习/Comparing Flux.1 and Stable Diffusion.md",
     "().md",
     "Scaling.md",
     "未命名.canvas",
-    "深度学习/Limitations &.md",
-    "深度学习/Style Transfer.md",
-    "深度学习/vector image.md",
-    "README.md",
-    "Daily Work.md",
-    "深度学习/LLM-Book.md",
-    "前端/Vue/vue.md",
-    "前端/前端学习路线.md",
-    "阿萨.md",
     "canvasDraft.canvas"
   ]
 }
