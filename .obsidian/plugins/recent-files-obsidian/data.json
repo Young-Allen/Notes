@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "韩顺平_循序渐进学Java零基础【完整笔记】",
+      "path": "Java/韩顺平_循序渐进学Java零基础【完整笔记】.pdf"
+    },
+    {
+      "basename": "背包问题",
+      "path": "算法/动态规划/背包问题.md"
+    },
+    {
+      "basename": "动态规划",
+      "path": "算法/Carl/动态规划.pdf"
+    },
+    {
+      "basename": "程序员求职",
+      "path": "算法/Carl/程序员求职.pdf"
+    },
+    {
+      "basename": "背包问题三个经典问题",
+      "path": "算法/Carl/背包问题三个经典问题.pdf"
+    },
+    {
+      "basename": "背包九讲",
+      "path": "算法/Carl/背包九讲.pdf"
+    },
+    {
+      "basename": "背包问题九讲 2.0",
+      "path": "算法/Carl/背包问题九讲 2.0.pdf"
+    },
+    {
       "basename": "[NOIP2016 提高组] 组合数问题",
       "path": "算法/[NOIP2016 提高组] 组合数问题.md"
     },
@@ -29,18 +57,6 @@
       "path": "Unity/1.项目创建和角色移动.md"
     },
     {
-      "basename": "背包问题三个经典问题",
-      "path": "算法/Carl/背包问题三个经典问题.pdf"
-    },
-    {
-      "basename": "背包问题九讲 2.0",
-      "path": "算法/Carl/背包问题九讲 2.0.pdf"
-    },
-    {
-      "basename": "背包九讲",
-      "path": "算法/Carl/背包九讲.pdf"
-    },
-    {
       "basename": "递归实现枚举",
       "path": "算法/递归枚举/递归实现枚举.md"
     },
@@ -51,18 +67,6 @@
     {
       "basename": "二叉树",
       "path": "算法/Carl/二叉树.pdf"
-    },
-    {
-      "basename": "动态规划",
-      "path": "算法/Carl/动态规划.pdf"
-    },
-    {
-      "basename": "程序员求职",
-      "path": "算法/Carl/程序员求职.pdf"
-    },
-    {
-      "basename": "背包问题",
-      "path": "算法/动态规划/背包问题.md"
     },
     {
       "basename": "vue",
@@ -195,10 +199,6 @@
     {
       "basename": "LLM-Book",
       "path": "深度学习/LLM-Book.md"
-    },
-    {
-      "basename": "LoRA-微软-算法深度讲解",
-      "path": "深度学习/LoRA-微软-算法深度讲解.pdf"
     }
   ],
   "omittedPaths": [],
