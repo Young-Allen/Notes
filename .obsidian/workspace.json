@@ -11,9 +11,11 @@
             "id": "e613590af86a41e8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Java/韩顺平_循序渐进学Java零基础【完整笔记】.pdf"
+                "file": "Java/Java.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -86,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/韩顺平_循序渐进学Java零基础【完整笔记】.pdf"
+                "file": "Java/Java.md"
               }
             }
           }
@@ -125,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/韩顺平_循序渐进学Java零基础【完整笔记】.pdf",
+                "file": "Java/Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +212,13 @@
   },
   "active": "e613590af86a41e8",
   "lastOpenFiles": [
+    "Java/SSM.md",
+    "Java/mysql.md",
+    "前端/前端学习路线.md",
     "算法/动态规划/背包问题.md",
+    "Java/Java.md",
+    "Java/JavaWeb.md",
+    "Java/韩顺平_循序渐进学Java零基础【完整笔记】.pdf",
     "算法/Carl/动态规划.pdf",
     "算法/Carl/程序员求职.pdf",
     "算法/Carl/背包问题三个经典问题.pdf",
@@ -231,7 +239,6 @@
     "算法/并查集/并查集.md",
     "未命名.md",
     "算法/搜索与图论/最短路问题.pdf",
-    "算法/搜索与图论/图的存储和遍历.pdf",
     "算法/搜索与图论/图的存储.md",
     "算法/搜索与图论/拓扑排序.md",
     "Excalidraw/image abstraction pipeline.excalidraw.md",
@@ -251,10 +258,6 @@
     "深度学习/A Survey of Style Transfer.md",
     "Image Abstraction/Image Abstraction.md",
     "RadePapers/Editable Image Geometric Abstraction via Neural Primitive Assembly（2023ICCV）.md",
-    "扩散模型/FLUX.1.md",
-    "RadePapers/Exploring Interactive Color Palettes for Abstraction-Driven Exploratory Image Colorization.md",
-    "深度学习/Comparing Flux.1 and Stable Diffusion.md",
-    "().md",
     "未命名.canvas",
     "canvasDraft.canvas"
   ]

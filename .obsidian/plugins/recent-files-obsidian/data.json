@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "韩顺平_循序渐进学Java零基础【完整笔记】",
-      "path": "Java/韩顺平_循序渐进学Java零基础【完整笔记】.pdf"
+      "basename": "Java",
+      "path": "Java/Java.md"
+    },
+    {
+      "basename": "SSM",
+      "path": "Java/SSM.md"
+    },
+    {
+      "basename": "mysql",
+      "path": "Java/mysql.md"
+    },
+    {
+      "basename": "前端学习路线",
+      "path": "前端/前端学习路线.md"
     },
     {
       "basename": "背包问题",
       "path": "算法/动态规划/背包问题.md"
+    },
+    {
+      "basename": "JavaWeb",
+      "path": "Java/JavaWeb.md"
+    },
+    {
+      "basename": "韩顺平_循序渐进学Java零基础【完整笔记】",
+      "path": "Java/韩顺平_循序渐进学Java零基础【完整笔记】.pdf"
     },
     {
       "basename": "动态规划",
@@ -179,26 +199,6 @@
     {
       "basename": "Comparing Flux.1 and Stable Diffusion",
       "path": "深度学习/Comparing Flux.1 and Stable Diffusion.md"
-    },
-    {
-      "basename": "Limitations &",
-      "path": "深度学习/Limitations &.md"
-    },
-    {
-      "basename": "Style Transfer",
-      "path": "深度学习/Style Transfer.md"
-    },
-    {
-      "basename": "vector image",
-      "path": "深度学习/vector image.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "LLM-Book",
-      "path": "深度学习/LLM-Book.md"
     }
   ],
   "omittedPaths": [],
