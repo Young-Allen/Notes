@@ -6,7 +6,7 @@
       {
         "id": "a28540ca0e42e9c9",
         "type": "tabs",
-        "dimension": 17.91044776119403,
+        "dimension": 14.063472308649658,
         "children": [
           {
             "id": "885ec66d4f436ed7",
@@ -23,7 +23,7 @@
       {
         "id": "c4fb2274665352a7",
         "type": "tabs",
-        "dimension": 82.08955223880598,
+        "dimension": 85.93652769135034,
         "children": [
           {
             "id": "e613590af86a41e8",
@@ -32,7 +32,7 @@
               "type": "markdown",
               "state": {
                 "file": "算法/动态规划/背包问题.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -220,10 +220,11 @@
   },
   "active": "e613590af86a41e8",
   "lastOpenFiles": [
-    "[.md",
-    "算法/动态规划/背包问题.md",
     "Java/Java.md",
     "Java/韩顺平_循序渐进学Java零基础【完整笔记】.pdf",
+    "算法/动态规划/背包问题.md",
+    "未命名",
+    "[.md",
     "Java/2025年最新Java学习路线零基础到精通一条龙（万人收藏⭐️）.md",
     "Java/集合.md",
     "前端/Vue/vue.md",
@@ -249,7 +250,6 @@
     "算法/Carl/二叉树.pdf",
     "算法/并查集/并查集.md",
     "未命名.md",
-    "算法/搜索与图论/最短路问题.pdf",
     "算法/搜索与图论/图的存储.md",
     "算法/搜索与图论/拓扑排序.md",
     "Excalidraw/image abstraction pipeline.excalidraw.md",
@@ -257,7 +257,6 @@
     "Excalidraw/image abstraction pipeline.excalidraw.svg",
     "Excalidraw/image abstraction pipeline.excalidraw.png",
     "Excalidraw/Drawing 2024-10-29 19.02.03.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-22 09.34.33.excalidraw.md",
     "Excalidraw/img/Pasted Image 20241208134754_799.png",
     "Excalidraw/img/Pasted Image 20241208134545_981.png",
     "Excalidraw/img/Pasted Image 20241208134438_881.png",
